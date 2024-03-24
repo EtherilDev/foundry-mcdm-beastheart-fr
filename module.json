@@ -1,0 +1,46 @@
+{
+  "id": "mcdm-beastheart-fr",
+  "title": "MCDM: Beastheart FR",
+  "description": "Traduction française de la classe Beastheart de MCDM",
+  "version": "1.0.0",
+  "url": "https://github.com/EtherilDev/foundry-mcdm-beastheart-fr",
+  "manifest": "https://github.com/EtherilDev/foundry-mcdm-beastheart-fr/releases/latest/download/module.json",
+  "download": "https://github.com/EtherilDev/foundry-mcdm-beastheart-fr/releases/latest/download/mcdm-beastheart-fr.zip",
+  "readme": "https://github.com/EtherilDev/foundry-mcdm-beastheart-fr#readme",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "authors": [
+    {
+      "name": "Kevin Plumyoen",
+      "discord": "cromnir",
+      "url": "https://github.com/kevin-plumyoen",
+      "flags": {}
+    }
+  ],
+  "esmodules": [
+    "babele-register.js"
+  ],
+  "relationships": {
+    "requires": [
+      {
+        "id": "mcdm-beastheart",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "babele",
+        "type": "module",
+        "compatibility": {}
+      }
+    ],
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  }
+}

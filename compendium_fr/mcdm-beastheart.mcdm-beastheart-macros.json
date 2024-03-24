@@ -1,0 +1,17 @@
+{
+  "label": "MCDM: Macros Coeur Bestial",
+  "entries": {
+    "Link Caregiver and Companion": {
+      "name": "Lier Gardien et Compagnon",
+      "command": "game.modules.get('mcdm-core').api.Beastheart.linkCaregiver()"
+    },
+    "Roll Ferocity Gain": {
+      "name": "Lancer Gain de Férocité",
+      "command": "game.modules.get('mcdm-core').api.Beastheart.rollFerocity(token?.actor)"
+    },
+    "Update Companion Stats": {
+      "name": "Mettre à Jour les Statistiques du Compagnon",
+      "command": "game.modules.get('mcdm-core').api.Beastheart.scaleCompanion(token?.actor)"
+    }
+  }
+}

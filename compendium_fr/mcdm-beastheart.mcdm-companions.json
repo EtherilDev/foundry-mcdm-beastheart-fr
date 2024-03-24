@@ -1,0 +1,579 @@
+{
+  "label": "MCDM: Compagnons Monstrueux",
+  "mapping": {
+    "tokenName": "prototypeToken.name"
+  },
+  "entries": {
+    "Basilisk Companion": {
+      "name": "Basilic (Compagnon)",
+      "tokenName": "Basilic (Compagnon)",
+      "items": {
+        "Bite (Signature Attack)": {
+          "name": "Morsure (Attaque Signature)",
+          "description": "<div class=\"mcdm-beastheart item\">+3 + bonus de maîtrise (BM) pour toucher, portée 5 ft., une cible. Touché: 1d6 + BM dégâts perforants.</div>"
+        },
+        "Poison Spittle (2 Ferocity, 1st Level)": {
+          "name": "Crachat de Poison (2 Férocité, Niveau 1)",
+          "description": "<div class=\"mcdm-beastheart item\">\n<p class=\"CORE-body\">Le basilic effectue une attaque signature. En cas de succès, l'attaque inflige des dégâts supplémentaires égaux au BM, et une créature choisie par le basilic dans un rayon de 5 pieds autour de lui autre que la cible subit des dégâts de poison égaux au BM.</p>\n</div>"
+        },
+        "Poison Gaze (5 Ferocity, 3rd Level)": {
+          "name": "Regard Empoisonné (5 Férocité, Niveau 3)",
+          "description": "<div class=\"mcdm-beastheart item\">\n<p class=\"CORE-body\">Le basilic choisit jusqu'à trois créatures qu'il peut voir dans un rayon de 15 pieds autour de lui. Chaque créature doit réussir un jet de sauvegarde de Constitution avec un DD de 10 + BM ou être empoisonnée jusqu'au début du prochain tour du basilic.</p>\n</div>"
+        },
+        "Lesser Petrifying Gaze (8 Ferocity, 5th Level)": {
+          "name": "Regard Pétrifiant Inférieur (8 Férocité, Niveau 5)",
+          "description": "<div class=\"mcdm-beastheart item\">\n<p class=\"CORE-body\">Le basilic cible une créature qu'il peut voir dans un rayon de 30 pieds autour de lui, qui doit réussir un jet de sauvegarde de Constitution avec un DD de 10 + BM. En cas d'échec, la créature commence magiquement à se transformer en pierre et est entravée. La créature doit répéter le jet de sauvegarde à la fin de son prochain tour.</p>\n<p class=\"CORE-body\">En cas de succès, l'effet prend fin. En cas d'échec, la créature est pétrifiée pendant 1 heure ou jusqu'à ce qu'elle soit libérée par le sort de restauration inférieure ou une magie similaire. (La restauration inférieure ne nie généralement pas la condition de pétrification, mais le Regard Pétrifiant Inférieur du compagnon est plus faible que d'autres formes de magie de pétrification.)</p>\n</div>"
+        },
+        "Heavy Glare": {
+          "name": "Oeil Lourd",
+          "description": "<div class=\"mcdm-beastheart item\">\n<p class=\"CORE-body\">Quand le soignant du basilic touche une créature qui peut voir le basilic, ce dernier peut forcer cette créature à effectuer un jet de sauvegarde de Constitution avec un DD de 10 + BM. En cas d'échec, la cible ne peut pas effectuer d'attaques d'opportunité et voit sa vitesse réduite de 10 pieds jusqu'au début de son prochain tour.</p>\n</div>"
+        },
+        "Monstrous Companion": {
+          "name": "Compagnon Monstrueux",
+          "description": "<div class=\"mcdm-beastheart\">\n<h3 class=\"Heading-2\">Le Gardien</h3>\n<p>En combat, un compagnon partage un tour avec son gardien et agit pendant le tour du gardien. Un compagnon peut se déplacer et utiliser sa propre réaction et action bonus de manière indépendante. Mais il ne peut prendre que les actions de Sauter, Désengager ou Esquiver à moins que son gardien utilise une action bonus pour commander au compagnon de prendre une action différente, y compris l'une des actions notées dans le bloc de statistiques du compagnon. Un compagnon doit être capable de voir ou d'entendre son gardien pour recevoir une commande. Un compagnon peut également prendre d'autres actions si son gardien est hors d'état de nuire, ou si le compagnon entre en frénésie (comme discuté ci-dessous).</p>\n<h3 class=\"Heading-2\">Contrôle du Compagnon</h3>\n<p class=\"SANS-body\">Si un gardien meurt ou est séparé d'un compagnon, le MJ détermine qui contrôle le compagnon. Dans certains cas, comme la mort d'un gardien, le joueur du gardien peut conserver le contrôle d'un compagnon faisant une dernière charge héroïque contre des ennemis. Mais dans les cas où un gardien et son compagnon sont physiquement séparés, comme lorsque le compagnon est capturé, le MJ peut vouloir prendre le contrôle du compagnon pour maintenir le joueur en suspens quant au sort de la créature.</p>\n<p class=\"SANS-body\"><em>Note: Cet objet de classe est destiné à être placé sur les feuilles de personnage de type 'compagnon' et son niveau doit correspondre à celui de son Gardien.</em></p>\n</div>"
+        },
+        "Rampage": {
+          "name": "Frénésie",
+          "description":"<div class=\"mcdm-beastheart item\">\n<p class=\"CORE-body\">Après avoir lancé les dés pour augmenter la férocité au début de son tour, si un compagnon a 10 points de férocité ou plus et n'est pas incapacité, il court le risque d'entrer dans une <span class=\"Bold\">frénésie</span>. Le gardien du compagnon peut faire un test de Sagesse (Dressage) (aucune action requise) pour essayer d'empêcher le compagnon d'entrer en frénésie. Pour faire le test, le gardien ne doit pas être incapacité, et le compagnon doit être capable de voir ou d'entendre le gardien. Le DD pour le test est égal à 5 + la férocité du compagnon. En cas de réussite, le compagnon agit normalement à son tour. En cas d'échec, ou si le gardien ne fait pas le test, le compagnon entre en frénésie.</p>\n<p class=\"CORE-body\">Lorsqu'un compagnon entre en frénésie, il se déplace immédiatement jusqu'à sa vitesse vers la créature la plus proche et attaque cette créature avec son attaque signature (voir ci-dessous), infligeant des dégâts supplémentaires égaux à la moitié de sa férocité si l'attaque touche. Si au moins un allié et un ennemi sont les plus proches et à égale distance du compagnon, le joueur du gardien lance n'importe quel dé. Sur un nombre impair, le compagnon attaque un allié. Sur un nombre pair, le compagnon attaque un ennemi. Le joueur du gardien détermine quel allié ou ennemi spécifique le compagnon engage (et peut choisir son propre personnage s'il le souhaite).</p>\n<p class=\"CORE-body\">Un compagnon qui ne peut pas atteindre une créature à attaquer pendant une frénésie utilise l'action Foncer pour se déplacer aussi loin qu'il le peut vers la créature la plus proche. Si un compagnon ne peut pas détecter de cibles potentielles, il se déplace aussi loin qu'il le peut dans une direction aléatoire déterminée par le MJ, en évitant le danger.</p>\n<p class=\"CORE-body\">Lorsqu'un compagnon qui est entré en frénésie résout son action ou termine son tour, sa férocité tombe à 0 et il n'est plus en frénésie.</p>\n<p class=\"CORE-body\"><em>Note : Cette fonctionnalité est principalement destinée comme référence pendant le jeu et pour fournir l'Effet Actif \"En Frénésie\", qui doit être activé lorsque le gardien échoue à son test de Sagesse (Dressage) pour fournir le bonus de dégâts en frénésie. Les gardiens avec la fonctionnalité \"Frénésie Furieuse\" devraient plutôt activer l'Effet Actif \"Furieux\".</em></p>\n</div>"
+        }
+      }
+    },
+    "Blood Hawk Companion": {
+      "name": "Faucon de Sang (Compagnon)",
+      "tokenName": "Faucon de Sang (Compagnon)",
+      "items": {
+        "Beak (Signature Attack)": {
+          "name": "Coup de Bec (Attaque Signature)",
+		  "description": "<div class=\"mcdm-beastheart item\">+3 + bonus de maîtrise (BM) pour toucher, portée 5 ft., une cible. Touché: 1d6 + BM dégâts perforants.</div>"
+        },
+        "Distracting Attack (2 Ferocity, 1st Level)": {
+          "name": "Attaque Distrayante (2 Férocité, Niveau 1)",
+		  "description": "<div class=\"mcdm-beastheart item\">\n<p class=\"CORE-body\">Le faucon effectue une attaque signature. En cas de réussite, l'attaque inflige ses effets normaux, et la prochaine attaque dirigée contre la cible avant le début du prochain tour du faucon bénéficie d'un avantage.</p>\n</div>"
+        },
+        "Swooping Attack (5 Ferocity, 3rd Level)": {
+          "name": "Attaque Plogeante (5 Férocité, Niveau 3)",
+		  "description": "<div class=\"mcdm-beastheart item\">\n<p class=\"CORE-body\">Le faucon se déplace jusqu'à sa vitesse sans provoquer d'opportunités d'attaque. Pendant ou à la fin de ce déplacement, il peut effectuer une attaque signature contre une cible. En cas de réussite, l'attaque inflige ses effets normaux, et la cible doit réussir un jet de sauvegarde de Force contre un DD de 10 plus BM, sinon elle laisse tomber un objet qu'elle tient.</p>\n</div>"
+        },
+        "Storm of Talons (8 Ferocity, 5th Level)": {
+          "name": "Tempête de Griffes (8 Férocité, Niveau 5)",
+		  "description": "<div class=\"mcdm-beastheart item\">\n<p class=\"CORE-body\">Le faucon se déplace jusqu'à sa vitesse sans provoquer d'opportunités d'attaque, puis peut cibler une créature se trouvant dans un rayon de 5 pieds autour de lui. Cette créature doit réussir un jet de sauvegarde de Dextérité contre un DD de 10 plus BM. En cas d'échec, elle subit BMd10 points de dégâts tranchants et est aveuglée jusqu'à la fin du prochain tour du faucon. En cas de réussite, elle subit la moitié des dégâts et n'est pas aveuglée.</p>\n</div>"
+        },
+        "Swoop In": {
+          "name": "Plongeon",
+		  "description": "<div class=\"mcdm-beastheart item\">\n<p class=\"CORE-body\">Lorsque le faucon est à moins de 30 pieds de son soigneur et que celui-ci est touché par une attaque, le faucon peut se déplacer jusqu'à sa vitesse sans provoquer d'opportunités d'attaque. Si le faucon termine ce déplacement à moins de 5 pieds du soigneur, le faucon est touché par l'attaque à la place, et l'attaque inflige la moitié des dégâts.</p>\n</div>"
+        },
+        "Keen Sight": {
+          "name": "Vue Perçante",
+		  "description": "<div class=\"mcdm-beastheart item\">\n<p class=\"CORE-body\">Le faucon a avantage sur les jets de Sagesse(Perception) reposant sur la vue</p>\n</div>"
+        },
+        "Monstrous Companion": {
+          "name": "Compagnon Monstrueux",
+          "description": "<div class=\"mcdm-beastheart\">\n<h3 class=\"Heading-2\">Le Gardien</h3>\n<p>En combat, un compagnon partage un tour avec son gardien et agit pendant le tour du gardien. Un compagnon peut se déplacer et utiliser sa propre réaction et action bonus de manière indépendante. Mais il ne peut prendre que les actions de Sauter, Désengager ou Esquiver à moins que son gardien utilise une action bonus pour commander au compagnon de prendre une action différente, y compris l'une des actions notées dans le bloc de statistiques du compagnon. Un compagnon doit être capable de voir ou d'entendre son gardien pour recevoir une commande. Un compagnon peut également prendre d'autres actions si son gardien est hors d'état de nuire, ou si le compagnon entre en frénésie (comme discuté ci-dessous).</p>\n<h3 class=\"Heading-2\">Contrôle du Compagnon</h3>\n<p class=\"SANS-body\">Si un gardien meurt ou est séparé d'un compagnon, le MJ détermine qui contrôle le compagnon. Dans certains cas, comme la mort d'un gardien, le joueur du gardien peut conserver le contrôle d'un compagnon faisant une dernière charge héroïque contre des ennemis. Mais dans les cas où un gardien et son compagnon sont physiquement séparés, comme lorsque le compagnon est capturé, le MJ peut vouloir prendre le contrôle du compagnon pour maintenir le joueur en suspens quant au sort de la créature.</p>\n<p class=\"SANS-body\"><em>Note: Cet objet de classe est destiné à être placé sur les feuilles de personnage de type 'compagnon' et son niveau doit correspondre à celui de son Gardien.</em></p>\n</div>"
+        },
+        "Rampage": {
+          "name": "Frénésie",
+          "description":"<div class=\"mcdm-beastheart item\">\n<p class=\"CORE-body\">Après avoir lancé les dés pour augmenter la férocité au début de son tour, si un compagnon a 10 points de férocité ou plus et n'est pas incapacité, il court le risque d'entrer dans une <span class=\"Bold\">frénésie</span>. Le gardien du compagnon peut faire un test de Sagesse (Dressage) (aucune action requise) pour essayer d'empêcher le compagnon d'entrer en frénésie. Pour faire le test, le gardien ne doit pas être incapacité, et le compagnon doit être capable de voir ou d'entendre le gardien. Le DD pour le test est égal à 5 + la férocité du compagnon. En cas de réussite, le compagnon agit normalement à son tour. En cas d'échec, ou si le gardien ne fait pas le test, le compagnon entre en frénésie.</p>\n<p class=\"CORE-body\">Lorsqu'un compagnon entre en frénésie, il se déplace immédiatement jusqu'à sa vitesse vers la créature la plus proche et attaque cette créature avec son attaque signature (voir ci-dessous), infligeant des dégâts supplémentaires égaux à la moitié de sa férocité si l'attaque touche. Si au moins un allié et un ennemi sont les plus proches et à égale distance du compagnon, le joueur du gardien lance n'importe quel dé. Sur un nombre impair, le compagnon attaque un allié. Sur un nombre pair, le compagnon attaque un ennemi. Le joueur du gardien détermine quel allié ou ennemi spécifique le compagnon engage (et peut choisir son propre personnage s'il le souhaite).</p>\n<p class=\"CORE-body\">Un compagnon qui ne peut pas atteindre une créature à attaquer pendant une frénésie utilise l'action Foncer pour se déplacer aussi loin qu'il le peut vers la créature la plus proche. Si un compagnon ne peut pas détecter de cibles potentielles, il se déplace aussi loin qu'il le peut dans une direction aléatoire déterminée par le MJ, en évitant le danger.</p>\n<p class=\"CORE-body\">Lorsqu'un compagnon qui est entré en frénésie résout son action ou termine son tour, sa férocité tombe à 0 et il n'est plus en frénésie.</p>\n<p class=\"CORE-body\"><em>Note : Cette fonctionnalité est principalement destinée comme référence pendant le jeu et pour fournir l'Effet Actif \"En Frénésie\", qui doit être activé lorsque le gardien échoue à son test de Sagesse (Dressage) pour fournir le bonus de dégâts en frénésie. Les gardiens avec la fonctionnalité \"Frénésie Furieuse\" devraient plutôt activer l'Effet Actif \"Furieux\".</em></p>\n</div>"
+        }
+      }
+    },
+    "Bulette Companion": {
+      "name": "Bulette (Compagnon)",
+      "tokenName": "Bulette (Compagnon)",
+      "items": {
+        "Bite (Signature Attack)": {
+          "name": "Morsure (Attaque Signature)",
+		  "description": "<div class=\"mcdm-beastheart item\">3 + bonus de maîtrise (BM) pour toucher, portée 5 ft., une cible. Touché: 1d6 + BM dégâts perforants.</div>"
+        },
+        "Violent Attack (2 Ferocity, 1st Level)": {
+          "name": "Coup Violent (2 Férocité, Niveau 1)",
+		  "description": "<div class=\"mcdm-beastheart item\">\n<p class=\"CORE-body\">La bulette effectue une attaque signature. En cas de réussite, l'attaque inflige des dégâts supplémentaires égaux au BM, et la bulette peut déplacer la cible de 5 pieds dans n'importe quelle direction.</p>\n</div>"
+        },
+        "Burrowing Trip (5 Ferocity, 3rd Level)": {
+          "name": "Déplacement Profond (5 Férocité, Niveau 3)",
+		  "description": "<div class=\"mcdm-beastheart item\">\n<p class=\"CORE-body\">La bulette se déplace jusqu'à la moitié de sa vitesse de creusement sans provoquer d'attaques d'opportunité. Chaque créature se tenant sur le sol sous laquelle la bulette se déplace doit réussir un jet de sauvegarde de Dextérité avec un DD de 10 plus BM. En cas d'échec, la créature tombe à terre.</p>\n</div>"
+        },
+        "Deadly Leap (8 Ferocity, 5th Level)": {
+          "name": "Saut Mortel (8 Férocité, Niveau 5)",
+		  "description": "<div class=\"mcdm-beastheart item\">\n<p class=\"CORE-body\">La bulette effectue un bond jusqu'à 30 pieds, et si elle atterrit dans un espace contenant une ou plusieurs créatures, chacune de ces créatures doit réussir un jet de sauvegarde de Force avec un DD de 10 plus BM. En cas d'échec, une créature subit BMd6 de dégâts contondants et est renversée. En cas de réussite, la créature subit la moitié des dégâts, n'est pas renversée et est repoussée de 5 pieds hors de l'espace de la bulette vers un espace non occupé de son choix. Si aucun espace non occupé n'est disponible, la créature est renversée dans l'espace de la bulette.</p>\n</div>"
+        },
+        "Plated Protection": {
+          "name": "Selle Renforcée",
+		  "description": "<div class=\"mcdm-beastheart item\">\n<p class=\"CORE-body\">Le gardien de la bulette peut monter sur la bulette pendant qu'elle creuse.</p>\n</div>"
+        },
+        "Monstrous Companion": {
+          "name": "Compagnon Monstrueux",
+          "description": "<div class=\"mcdm-beastheart\">\n<h3 class=\"Heading-2\">Le Gardien</h3>\n<p>En combat, un compagnon partage un tour avec son gardien et agit pendant le tour du gardien. Un compagnon peut se déplacer et utiliser sa propre réaction et action bonus de manière indépendante. Mais il ne peut prendre que les actions de Sauter, Désengager ou Esquiver à moins que son gardien utilise une action bonus pour commander au compagnon de prendre une action différente, y compris l'une des actions notées dans le bloc de statistiques du compagnon. Un compagnon doit être capable de voir ou d'entendre son gardien pour recevoir une commande. Un compagnon peut également prendre d'autres actions si son gardien est hors d'état de nuire, ou si le compagnon entre en frénésie (comme discuté ci-dessous).</p>\n<h3 class=\"Heading-2\">Contrôle du Compagnon</h3>\n<p class=\"SANS-body\">Si un gardien meurt ou est séparé d'un compagnon, le MJ détermine qui contrôle le compagnon. Dans certains cas, comme la mort d'un gardien, le joueur du gardien peut conserver le contrôle d'un compagnon faisant une dernière charge héroïque contre des ennemis. Mais dans les cas où un gardien et son compagnon sont physiquement séparés, comme lorsque le compagnon est capturé, le MJ peut vouloir prendre le contrôle du compagnon pour maintenir le joueur en suspens quant au sort de la créature.</p>\n<p class=\"SANS-body\"><em>Note: Cet objet de classe est destiné à être placé sur les feuilles de personnage de type 'compagnon' et son niveau doit correspondre à celui de son Gardien.</em></p>\n</div>"
+        },
+        "Rampage": {
+          "name": "Frénésie",
+          "description":"<div class=\"mcdm-beastheart item\">\n<p class=\"CORE-body\">Après avoir lancé les dés pour augmenter la férocité au début de son tour, si un compagnon a 10 points de férocité ou plus et n'est pas incapacité, il court le risque d'entrer dans une <span class=\"Bold\">frénésie</span>. Le gardien du compagnon peut faire un test de Sagesse (Dressage) (aucune action requise) pour essayer d'empêcher le compagnon d'entrer en frénésie. Pour faire le test, le gardien ne doit pas être incapacité, et le compagnon doit être capable de voir ou d'entendre le gardien. Le DD pour le test est égal à 5 + la férocité du compagnon. En cas de réussite, le compagnon agit normalement à son tour. En cas d'échec, ou si le gardien ne fait pas le test, le compagnon entre en frénésie.</p>\n<p class=\"CORE-body\">Lorsqu'un compagnon entre en frénésie, il se déplace immédiatement jusqu'à sa vitesse vers la créature la plus proche et attaque cette créature avec son attaque signature (voir ci-dessous), infligeant des dégâts supplémentaires égaux à la moitié de sa férocité si l'attaque touche. Si au moins un allié et un ennemi sont les plus proches et à égale distance du compagnon, le joueur du gardien lance n'importe quel dé. Sur un nombre impair, le compagnon attaque un allié. Sur un nombre pair, le compagnon attaque un ennemi. Le joueur du gardien détermine quel allié ou ennemi spécifique le compagnon engage (et peut choisir son propre personnage s'il le souhaite).</p>\n<p class=\"CORE-body\">Un compagnon qui ne peut pas atteindre une créature à attaquer pendant une frénésie utilise l'action Foncer pour se déplacer aussi loin qu'il le peut vers la créature la plus proche. Si un compagnon ne peut pas détecter de cibles potentielles, il se déplace aussi loin qu'il le peut dans une direction aléatoire déterminée par le MJ, en évitant le danger.</p>\n<p class=\"CORE-body\">Lorsqu'un compagnon qui est entré en frénésie résout son action ou termine son tour, sa férocité tombe à 0 et il n'est plus en frénésie.</p>\n<p class=\"CORE-body\"><em>Note : Cette fonctionnalité est principalement destinée comme référence pendant le jeu et pour fournir l'Effet Actif \"En Frénésie\", qui doit être activé lorsque le gardien échoue à son test de Sagesse (Dressage) pour fournir le bonus de dégâts en frénésie. Les gardiens avec la fonctionnalité \"Frénésie Furieuse\" devraient plutôt activer l'Effet Actif \"Furieux\".</em></p>\n</div>"
+        }
+      }
+    },
+    "Deinonychus Companion": {
+      "name": "Deinonychus (Compagnon)",
+      "tokenName": "Deinonychus (Compagnon)",
+      "items": {
+        "Bite (Signature Attack)": {
+          "name": "Morsure (Attaque Signature)",
+		  "description": "<div class=\"mcdm-beastheart item\">3 + bonus de maîtrise (BM) pour toucher, portée 5 ft., une cible. Touché: 1d6 + BM dégâts perforants.</div>"
+        },
+        "Overwhelming Attack (2 Ferocity, 1st Level)": {
+          "name": "Griffures Innombrables (2 Férocité, Niveau 1)",
+		  "description": "<div class=\"mcdm-beastheart item\">\n<p class=\"CORE-body\">Le deinonychus effectue une attaque signature. En cas de réussite, l'attaque inflige des dégâts supplémentaires égaux au BM, et la cible ne peut pas effectuer de réactions jusqu'au début du prochain tour du deinonychus.</p>\n</div>"
+        },
+        "Clever Girl (5 Ferocity, 3rd Level)": {
+          "name": "Échappatoire (5 Férocité, Niveau 3)",
+		  "description": "<div class=\"mcdm-beastheart item\">\n<p class=\"CORE-body\">Le deinonychus peut prendre l'action Se Cacher puis effectuer une attaque signature, ou peut effectuer une attaque signature puis prendre l'action Se Cacher. Si le deinonychus touche avec l'attaque signature, il fait également tomber la cible à terre. Le deinonychus peut se déplacer entre son action Se Cacher et l'attaque, ou vice versa, même si un tel déplacement annulerait normalement une tentative de se cacher.</p>\n</div>"
+        },
+        "Keep Them Down (8 Ferocity, 5th Level)": {
+          "name": "Placage au Sol (8 Férocité, Niveau 5)",
+		  "description": "<div class=\"mcdm-beastheart item\">\n<p class=\"CORE-body\">Le deinonychus se précipite vers une autre créature située à moins de 5 pieds de lui, qui doit réussir un jet de sauvegarde de Dextérité avec un DD de 10 plus BM.</p>\n<p class=\"CORE-body\">En cas d'échec, la cible subit des dégâts tranchants de BMd12 et est projetée à terre et maintenue (DD de 10 plus BM pour s'échapper). En cas de réussite, la cible subit la moitié des dégâts et n'est ni projetée à terre ni maintenue. Une créature projetée à terre par cette fonctionnalité ne peut pas se relever tant qu'elle est maintenue. Si le deinonychus attaque ou utilise l'action Maintenez-les à terre sur une autre cible, la prise se termine.</p>\n</div>"
+        },
+        "Part of the Pack (1/Long Rest)": {
+          "name": "Effet de Meute",
+		  "description": "<div class=\"mcdm-beastheart item\">\n<p class=\"CORE-body\">Lorsque le gardien du deinonychus est charmé, effrayé ou étourdi alors qu'il se trouve à moins de 5 pieds du deinonychus, ce dernier peut mettre fin à l'une de ces conditions sur le gardien.</p>\n</div>"
+        },
+        "Monstrous Companion": {
+          "name": "Compagnon Monstrueux",
+          "description": "<div class=\"mcdm-beastheart\">\n<h3 class=\"Heading-2\">Le Gardien</h3>\n<p>En combat, un compagnon partage un tour avec son gardien et agit pendant le tour du gardien. Un compagnon peut se déplacer et utiliser sa propre réaction et action bonus de manière indépendante. Mais il ne peut prendre que les actions de Sauter, Désengager ou Esquiver à moins que son gardien utilise une action bonus pour commander au compagnon de prendre une action différente, y compris l'une des actions notées dans le bloc de statistiques du compagnon. Un compagnon doit être capable de voir ou d'entendre son gardien pour recevoir une commande. Un compagnon peut également prendre d'autres actions si son gardien est hors d'état de nuire, ou si le compagnon entre en frénésie (comme discuté ci-dessous).</p>\n<h3 class=\"Heading-2\">Contrôle du Compagnon</h3>\n<p class=\"SANS-body\">Si un gardien meurt ou est séparé d'un compagnon, le MJ détermine qui contrôle le compagnon. Dans certains cas, comme la mort d'un gardien, le joueur du gardien peut conserver le contrôle d'un compagnon faisant une dernière charge héroïque contre des ennemis. Mais dans les cas où un gardien et son compagnon sont physiquement séparés, comme lorsque le compagnon est capturé, le MJ peut vouloir prendre le contrôle du compagnon pour maintenir le joueur en suspens quant au sort de la créature.</p>\n<p class=\"SANS-body\"><em>Note: Cet objet de classe est destiné à être placé sur les feuilles de personnage de type 'compagnon' et son niveau doit correspondre à celui de son Gardien.</em></p>\n</div>"
+        },
+        "Rampage": {
+          "name": "Frénésie",
+          "description":"<div class=\"mcdm-beastheart item\">\n<p class=\"CORE-body\">Après avoir lancé les dés pour augmenter la férocité au début de son tour, si un compagnon a 10 points de férocité ou plus et n'est pas incapacité, il court le risque d'entrer dans une <span class=\"Bold\">frénésie</span>. Le gardien du compagnon peut faire un test de Sagesse (Dressage) (aucune action requise) pour essayer d'empêcher le compagnon d'entrer en frénésie. Pour faire le test, le gardien ne doit pas être incapacité, et le compagnon doit être capable de voir ou d'entendre le gardien. Le DD pour le test est égal à 5 + la férocité du compagnon. En cas de réussite, le compagnon agit normalement à son tour. En cas d'échec, ou si le gardien ne fait pas le test, le compagnon entre en frénésie.</p>\n<p class=\"CORE-body\">Lorsqu'un compagnon entre en frénésie, il se déplace immédiatement jusqu'à sa vitesse vers la créature la plus proche et attaque cette créature avec son attaque signature (voir ci-dessous), infligeant des dégâts supplémentaires égaux à la moitié de sa férocité si l'attaque touche. Si au moins un allié et un ennemi sont les plus proches et à égale distance du compagnon, le joueur du gardien lance n'importe quel dé. Sur un nombre impair, le compagnon attaque un allié. Sur un nombre pair, le compagnon attaque un ennemi. Le joueur du gardien détermine quel allié ou ennemi spécifique le compagnon engage (et peut choisir son propre personnage s'il le souhaite).</p>\n<p class=\"CORE-body\">Un compagnon qui ne peut pas atteindre une créature à attaquer pendant une frénésie utilise l'action Foncer pour se déplacer aussi loin qu'il le peut vers la créature la plus proche. Si un compagnon ne peut pas détecter de cibles potentielles, il se déplace aussi loin qu'il le peut dans une direction aléatoire déterminée par le MJ, en évitant le danger.</p>\n<p class=\"CORE-body\">Lorsqu'un compagnon qui est entré en frénésie résout son action ou termine son tour, sa férocité tombe à 0 et il n'est plus en frénésie.</p>\n<p class=\"CORE-body\"><em>Note : Cette fonctionnalité est principalement destinée comme référence pendant le jeu et pour fournir l'Effet Actif \"En Frénésie\", qui doit être activé lorsque le gardien échoue à son test de Sagesse (Dressage) pour fournir le bonus de dégâts en frénésie. Les gardiens avec la fonctionnalité \"Frénésie Furieuse\" devraient plutôt activer l'Effet Actif \"Furieux\".</em></p>\n</div>"
+        }
+      }
+    },
+    "Dragon Wyrmling Companion": {
+      "name": "Dragonnet (Compagnon)",
+      "tokenName": "Dragonnet (Compagnon)",
+      "items": {
+        "Bite (Signature Attack)": {
+          "name": "Morsure (Attaque Signature)",
+		  "description": "<div class=\"mcdm-beastheart item\">3 + bonus de maîtrise (BM) pour toucher, portée 5 ft., une cible. Touché: 1d6 + BM dégâts perforants.</div>"
+        },
+        "Spit Breath (2 Ferocity, 1st Level)": {
+          "name": "Crachat Élémentaire (2 Férocité, Niveau 1)",
+		  "description": "<div class=\"mcdm-beastheart item\">\n<p class=\"CORE-body\">Le dragonnet effectue une attaque signature en tant qu'attaque à distance, avec une portée normale de 30 pieds et une portée longue de 60 pieds. En cas de réussite, l'attaque inflige des dégâts supplémentaires égaux au BM, et tous les dégâts infligés par l'attaque sont du type associé à la lignée du dragonnet, au lieu des dégâts perforants.</p>\n<p><em>Remarque : Le type de dégâts doit être défini en fonction de la lignée du dragonnet.<em></p>\n</div>"
+        },
+        "Frightful Presence (5 Ferocity, 3rd Level)": {
+          "name": "Présence Effrayante (5 Férocité, Niveau 3)",
+		  "description": "<div class=\"mcdm-beastheart item\">\n<p class=\"CORE-body\">Chaque créature choisie par le dragonnet qui se trouve dans un rayon de 10 pieds autour du dragonnet et qui est consciente de sa présence doit réussir un jet de sauvegarde de Sagesse avec un DD de 10 plus BM, ou devenir effrayée par le dragonnet pendant 1 minute. Une créature peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même en cas de succès. Si le jet de sauvegarde d'une créature est réussi ou si l'effet prend fin pour elle, la créature devient immunisée contre la Présence Effrayante du dragonnet pendant les 24 prochaines heures.</p>\n</div>"
+        },
+        "Breath Weapon (8 Ferocity, 5th Level)": {
+          "name": "Souffle Draconique (8 Férocité, Niveau 5)",
+		  "description": "<div class=\"mcdm-beastheart item\">\n<p class=\"CORE-body\">Le dragonnet expire une énergie élémentaire qui remplit une zone. Les créatures dans cette zone doivent réussir un jet de sauvegarde avec un DD de 10 plus BM, subissant PBd6 dégâts en cas d'échec, ou la moitié de ces dégâts en cas de réussite. Le type de dégâts, la forme de la zone d'effet et le type de jet de sauvegarde sont déterminés par le trait Lignée Draconique du dragonnet.</p>\n<p class=\"CORE-body\"><em>Note : Le type de dégâts, la forme de la zone d'effet et le type de jet de sauvegarde doivent être définis en fonction de la lignée draconique du dragonnet.</em></p>\n</div>"
+        },
+        "Draconic Lineage": {
+          "name": "Héritage Draconique",
+		  "description": "<div class=\"mcdm-beastheart item\">\n<p class=\"CORE-body\">Le dragonnet possède une lignée qui détermine un type de dégât contre lequel il est immunisé et qui s'applique aux dégâts infligés par ses actions Crachat Élémentaire et Souffle Draconique.</p>\n<div class=\"sub-table\">\n<h3 class=\"TABLE-heading\">Héritages Draconiques</h3>\n<table class=\"D-D-Table c2left\">\n<colgroup>\n<col>\n<col>\n</colgroup>\n<thead>\n<tr class=\"D-D-Table _idGenTableRowColumn-10\">\n<td class=\"D-D-Table D-D-Table-Cell-Bolded D-D-Table-Cell CellOverride-1\">\n<p class=\"TABLE-cell ParaOverride-3\"><span class=\"CharOverride-2\">Héritage</span></p>\n</td>\n<td class=\"D-D-Table D-D-Table-Cell-Bolded D-D-Table-Cell CellOverride-12 _idGenCellOverride-1\">\n<p class=\"TABLE-cell\"><span class=\"CharOverride-2\">Type de Dégât</span></p>\n</td>\n<td class=\"D-D-Table D-D-Table-Cell-Bolded D-D-Table-Cell CellOverride-12 _idGenCellOverride-1\">\n<p class=\"TABLE-cell\"><span class=\"CharOverride-2\">Zone</span></p>\n</td>\n</tr>\n</thead>\n<tbody>\n<tr class=\"D-D-Table _idGenTableRowColumn-5\">\n<td class=\"D-D-Table D-D-Table-Cell D-D-Table-Cell CellOverride-4 _idGenCellOverride-2\">\n<p class=\"TABLE-cell ParaOverride-3\">Noir, cuivre</p>\n</td>\n<td class=\"D-D-Table D-D-Table-Cell D-D-Table-Cell CellOverride-13 _idGenCellOverride-3\">\n<p class=\"TABLE-cell\">Acide</p>\n</td>\n<td class=\"D-D-Table D-D-Table-Cell D-D-Table-Cell CellOverride-13 _idGenCellOverride-3\">\n<p class=\"TABLE-cell\">Ligne de 5 × 30 pieds(Sauvegarde de Dex.)</p>\n</td>\n</tr>\n<tr class=\"D-D-Table _idGenTableRowColumn-6\">\n<td class=\"D-D-Table D-D-Table-Cell D-D-Table-Cell\">\n<p class=\"TABLE-cell ParaOverride-3\">Argent, blanc</p>\n</td>\n<td class=\"D-D-Table D-D-Table-Cell D-D-Table-Cell CellOverride-14 _idGenCellOverride-1\">\n<p class=\"TABLE-cell\">Froid</p>\n</td>\n<td class=\"D-D-Table D-D-Table-Cell D-D-Table-Cell CellOverride-14 _idGenCellOverride-1\">\n<p class=\"TABLE-cell\">Cône de 15 pieds (Sauvegarde de Con.)</p>\n</td>\n</tr>\n<tr class=\"D-D-Table _idGenTableRowColumn-7\">\n<td class=\"D-D-Table D-D-Table-Cell D-D-Table-Cell\">\n<p class=\"TABLE-cell ParaOverride-3\">Laiton</p>\n</td>\n<td class=\"D-D-Table D-D-Table-Cell D-D-Table-Cell CellOverride-14 _idGenCellOverride-1\">\n<p class=\"TABLE-cell\">Feu</p>\n</td>\n<td class=\"D-D-Table D-D-Table-Cell D-D-Table-Cell CellOverride-14 _idGenCellOverride-1\">\n<p class=\"TABLE-cell\">Ligne de 5 × 30 pieds (Sauvegarde de Dex.)</p>\n</td>\n</tr>\n<tr class=\"D-D-Table _idGenTableRowColumn-8\">\n<td class=\"D-D-Table D-D-Table-Cell D-D-Table-Cell\">\n<p class=\"TABLE-cell ParaOverride-3\">Or, rouge</p>\n</td>\n<td class=\"D-D-Table D-D-Table-Cell D-D-Table-Cell CellOverride-15 _idGenCellOverride-1\">\n<p class=\"TABLE-cell\">Feu</p>\n</td>\n<td class=\"D-D-Table D-D-Table-Cell D-D-Table-Cell CellOverride-15 _idGenCellOverride-1\">\n<p class=\"TABLE-cell\">Cône de 15 pieds (Sauvegarde de Dex.)</p>\n</td>\n</tr>\n<tr class=\"D-D-Table _idGenTableRowColumn-9\">\n<td class=\"D-D-Table D-D-Table-Cell D-D-Table-Cell\">\n<p class=\"TABLE-cell ParaOverride-3\">Bleu, bronze</p>\n</td>\n<td class=\"D-D-Table D-D-Table-Cell D-D-Table-Cell CellOverride-16 _idGenCellOverride-1\">\n<p class=\"TABLE-cell\">Foudre</p>\n</td>\n<td class=\"D-D-Table D-D-Table-Cell D-D-Table-Cell CellOverride-16 _idGenCellOverride-1\">\n<p class=\"TABLE-cell\">Ligne de 5 × 30 pieds (Sauvegarde de Dex.)</p>\n</td>\n</tr>\n<tr class=\"D-D-Table _idGenTableRowColumn-10\">\n<td class=\"D-D-Table D-D-Table-Cell D-D-Table-Cell\">\n<p class=\"TABLE-cell ParaOverride-3\">Vert</p>\n</td>\n<td class=\"D-D-Table D-D-Table-Cell D-D-Table-Cell CellOverride-17 _idGenCellOverride-1\">\n<p class=\"TABLE-cell\">Poison</p>\n</td>\n<td class=\"D-D-Table D-D-Table-Cell D-D-Table-Cell CellOverride-17 _idGenCellOverride-1\">\n<p class=\"TABLE-cell\">Cône de 15 pieds (Sauvegarde de Con.)</p>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n</div>"
+        },
+        "Shared Resistance": {
+          "name": "Résistance Partagée",
+		  "description": "<div class=\"mcdm-beastheart item\">\n<p class=\"CORE-body\">Le gardien du dragonnet bénéficie d'une résistance au type de dégât associé à leur Héritage Draconique et ne subit aucun dégât de l'action Souffle Draconique du dragonnet.</p>\n</div>"
+        },
+        "Monstrous Companion": {
+          "name": "Compagnon Monstrueux",
+          "description": "<div class=\"mcdm-beastheart\">\n<h3 class=\"Heading-2\">Le Gardien</h3>\n<p>En combat, un compagnon partage un tour avec son gardien et agit pendant le tour du gardien. Un compagnon peut se déplacer et utiliser sa propre réaction et action bonus de manière indépendante. Mais il ne peut prendre que les actions de Sauter, Désengager ou Esquiver à moins que son gardien utilise une action bonus pour commander au compagnon de prendre une action différente, y compris l'une des actions notées dans le bloc de statistiques du compagnon. Un compagnon doit être capable de voir ou d'entendre son gardien pour recevoir une commande. Un compagnon peut également prendre d'autres actions si son gardien est hors d'état de nuire, ou si le compagnon entre en frénésie (comme discuté ci-dessous).</p>\n<h3 class=\"Heading-2\">Contrôle du Compagnon</h3>\n<p class=\"SANS-body\">Si un gardien meurt ou est séparé d'un compagnon, le MJ détermine qui contrôle le compagnon. Dans certains cas, comme la mort d'un gardien, le joueur du gardien peut conserver le contrôle d'un compagnon faisant une dernière charge héroïque contre des ennemis. Mais dans les cas où un gardien et son compagnon sont physiquement séparés, comme lorsque le compagnon est capturé, le MJ peut vouloir prendre le contrôle du compagnon pour maintenir le joueur en suspens quant au sort de la créature.</p>\n<p class=\"SANS-body\"><em>Note: Cet objet de classe est destiné à être placé sur les feuilles de personnage de type 'compagnon' et son niveau doit correspondre à celui de son Gardien.</em></p>\n</div>",
+          "description": "<div class=\"mcdm-beastheart\">\n<h3 class=\"Heading-2\">Le Gardien</h3>\n<p>En combat, un compagnon partage un tour avec son gardien et agit pendant le tour du gardien. Un compagnon peut se déplacer et utiliser sa propre réaction et action bonus de manière indépendante. Mais il ne peut prendre que les actions de Sauter, Désengager ou Esquiver à moins que son gardien utilise une action bonus pour commander au compagnon de prendre une action différente, y compris l'une des actions notées dans le bloc de statistiques du compagnon. Un compagnon doit être capable de voir ou d'entendre son gardien pour recevoir une commande. Un compagnon peut également prendre d'autres actions si son gardien est hors d'état de nuire, ou si le compagnon entre en frénésie (comme discuté ci-dessous).</p>\n<h3 class=\"Heading-2\">Contrôle du Compagnon</h3>\n<p class=\"SANS-body\">Si un gardien meurt ou est séparé d'un compagnon, le MJ détermine qui contrôle le compagnon. Dans certains cas, comme la mort d'un gardien, le joueur du gardien peut conserver le contrôle d'un compagnon faisant une dernière charge héroïque contre des ennemis. Mais dans les cas où un gardien et son compagnon sont physiquement séparés, comme lorsque le compagnon est capturé, le MJ peut vouloir prendre le contrôle du compagnon pour maintenir le joueur en suspens quant au sort de la créature.</p>\n<p class=\"SANS-body\"><em>Note: Cet objet de classe est destiné à être placé sur les feuilles de personnage de type 'compagnon' et son niveau doit correspondre à celui de son Gardien.</em></p>\n</div>"
+        },
+        "Rampage": {
+          "name": "Frénésie",
+          "description":"<div class=\"mcdm-beastheart item\">\n<p class=\"CORE-body\">Après avoir lancé les dés pour augmenter la férocité au début de son tour, si un compagnon a 10 points de férocité ou plus et n'est pas incapacité, il court le risque d'entrer dans une <span class=\"Bold\">frénésie</span>. Le gardien du compagnon peut faire un test de Sagesse (Dressage) (aucune action requise) pour essayer d'empêcher le compagnon d'entrer en frénésie. Pour faire le test, le gardien ne doit pas être incapacité, et le compagnon doit être capable de voir ou d'entendre le gardien. Le DD pour le test est égal à 5 + la férocité du compagnon. En cas de réussite, le compagnon agit normalement à son tour. En cas d'échec, ou si le gardien ne fait pas le test, le compagnon entre en frénésie.</p>\n<p class=\"CORE-body\">Lorsqu'un compagnon entre en frénésie, il se déplace immédiatement jusqu'à sa vitesse vers la créature la plus proche et attaque cette créature avec son attaque signature (voir ci-dessous), infligeant des dégâts supplémentaires égaux à la moitié de sa férocité si l'attaque touche. Si au moins un allié et un ennemi sont les plus proches et à égale distance du compagnon, le joueur du gardien lance n'importe quel dé. Sur un nombre impair, le compagnon attaque un allié. Sur un nombre pair, le compagnon attaque un ennemi. Le joueur du gardien détermine quel allié ou ennemi spécifique le compagnon engage (et peut choisir son propre personnage s'il le souhaite).</p>\n<p class=\"CORE-body\">Un compagnon qui ne peut pas atteindre une créature à attaquer pendant une frénésie utilise l'action Foncer pour se déplacer aussi loin qu'il le peut vers la créature la plus proche. Si un compagnon ne peut pas détecter de cibles potentielles, il se déplace aussi loin qu'il le peut dans une direction aléatoire déterminée par le MJ, en évitant le danger.</p>\n<p class=\"CORE-body\">Lorsqu'un compagnon qui est entré en frénésie résout son action ou termine son tour, sa férocité tombe à 0 et il n'est plus en frénésie.</p>\n<p class=\"CORE-body\"><em>Note : Cette fonctionnalité est principalement destinée comme référence pendant le jeu et pour fournir l'Effet Actif \"En Frénésie\", qui doit être activé lorsque le gardien échoue à son test de Sagesse (Dressage) pour fournir le bonus de dégâts en frénésie. Les gardiens avec la fonctionnalité \"Frénésie Furieuse\" devraient plutôt activer l'Effet Actif \"Furieux\".</em></p>\n</div>"
+        }
+      }
+    },
+    "Earth Elemental Companion": {
+      "name": "Élémentaire de Terre (Compagnon)",
+      "tokenName": "Élémentaire de Terre (Compagnon)",
+      "items": {
+        "Slam (Signature Attack)": {
+          "name": "Slam (Attaque Signature)",
+		  "description": "<div class=\"mcdm-beastheart item\">\n<p class=\"CORE-body\">3 + bonus de maîtrise (BM) pour toucher, portée 5 ft., une cible. Touché: 1d6 + BM dégâts contondants.</p>\n</div>"
+        },
+        "Stretch Attack (2 Ferocity, 1st Level)": {
+          "name": "Attaque Étendue (2 Férocité, Niveau 1)",
+		  "description": "<div class=\"mcdm-beastheart item\">\n<p class=\"CORE-body\">L'élémentaire effectue une attaque signature avec une portée de 10 pieds. En cas de réussite, l'attaque inflige des dégâts supplémentaires égaux au BM, et l'élémentaire peut tirer la cible de 5 pieds vers lui.</p>\n</div>"
+        },
+        "Earthshaker  (5 Ferocity, 3rd Level)": {
+          "name": "Séisme  (5 Férocité, Niveau 3)",
+		  "description": "<div class=\"mcdm-beastheart item\">\n<p class=\"CORE-body\">L'élémentaire frappe le sol, et chaque créature se trouvant dans un rayon de 10 pieds autour de lui doit réussir un jet de sauvegarde de Dextérité contre un DD de 10 plus BM ou être projetée au sol. Le gardien de l'élémentaire réussit automatiquement ce jet de sauvegarde.</p>\n</div>"
+        },
+        "Transmute Ground (8 Ferocity, 5th Level)": {
+          "name": "Transmutation du Sol (8 Férocité, Niveau 5)",
+		  "description": "<div class=\"mcdm-beastheart item\">\n<p class=\"CORE-body\">L'élémentaire choisit une zone carrée de 10 pieds de côté sur le sol qu'il peut voir dans un rayon de 30 pieds autour de lui. Chaque créature se tenant dans la zone doit réussir un jet de sauvegarde de Force contre un DD de 10 plus BM ou s'enfoncer partiellement dans le sol et devenir entravée. Une créature peut utiliser son action pour effectuer un test de Force (Athlétisme) contre un DD de 10 plus BM, se libérant elle-même ou une autre créature à sa portée en cas de succès et mettant fin à la condition d'entravement pour la créature libérée.</p>\n</div>"
+        },
+        "Toss Me": {
+          "name": "Jet de Gardien",
+		  "description": "<div class=\"mcdm-beastheart item\">\n<p class=\"CORE-body\">Tant que l'élémentaire est à moins de 5 pieds de son gardien, il peut projeter le gardien jusqu'à 5 fois BM pieds dans n'importe quelle direction, y compris vers le haut. Si le gardien devait normalement subir des dégâts dus à une chute après avoir été projeté, il peut annuler les dégâts avec un jet de sauvegarde de Dextérité réussi contre un DD de 15.</p>\n</div>"
+        },
+        "Earth Glide": {
+          "name": "Glissement Tellurique",
+		  "description": "<div class=\"mcdm-beastheart item\">\n<p class=\"CORE-body\">L'élémentaire peut se frayer un chemin à travers la terre et la pierre non magiques et non travaillées. Pendant ce temps, l'élémentaire ne perturbe pas le matériau à travers lequel il se déplace. Lorsqu'il utilise Glissement Tellurique, l'élémentaire ne peut pas être utilisé comme monture.</p>\n</div>"
+        },
+        "Monstrous Companion": {
+          "name": "Compagnon Monstrueux",
+          "description": "<div class=\"mcdm-beastheart\">\n<h3 class=\"Heading-2\">Le Gardien</h3>\n<p>En combat, un compagnon partage un tour avec son gardien et agit pendant le tour du gardien. Un compagnon peut se déplacer et utiliser sa propre réaction et action bonus de manière indépendante. Mais il ne peut prendre que les actions de Sauter, Désengager ou Esquiver à moins que son gardien utilise une action bonus pour commander au compagnon de prendre une action différente, y compris l'une des actions notées dans le bloc de statistiques du compagnon. Un compagnon doit être capable de voir ou d'entendre son gardien pour recevoir une commande. Un compagnon peut également prendre d'autres actions si son gardien est hors d'état de nuire, ou si le compagnon entre en frénésie (comme discuté ci-dessous).</p>\n<h3 class=\"Heading-2\">Contrôle du Compagnon</h3>\n<p class=\"SANS-body\">Si un gardien meurt ou est séparé d'un compagnon, le MJ détermine qui contrôle le compagnon. Dans certains cas, comme la mort d'un gardien, le joueur du gardien peut conserver le contrôle d'un compagnon faisant une dernière charge héroïque contre des ennemis. Mais dans les cas où un gardien et son compagnon sont physiquement séparés, comme lorsque le compagnon est capturé, le MJ peut vouloir prendre le contrôle du compagnon pour maintenir le joueur en suspens quant au sort de la créature.</p>\n<p class=\"SANS-body\"><em>Note: Cet objet de classe est destiné à être placé sur les feuilles de personnage de type 'compagnon' et son niveau doit correspondre à celui de son Gardien.</em></p>\n</div>"
+        },
+        "Rampage": {
+          "name": "Frénésie",
+          "description":"<div class=\"mcdm-beastheart item\">\n<p class=\"CORE-body\">Après avoir lancé les dés pour augmenter la férocité au début de son tour, si un compagnon a 10 points de férocité ou plus et n'est pas incapacité, il court le risque d'entrer dans une <span class=\"Bold\">frénésie</span>. Le gardien du compagnon peut faire un test de Sagesse (Dressage) (aucune action requise) pour essayer d'empêcher le compagnon d'entrer en frénésie. Pour faire le test, le gardien ne doit pas être incapacité, et le compagnon doit être capable de voir ou d'entendre le gardien. Le DD pour le test est égal à 5 + la férocité du compagnon. En cas de réussite, le compagnon agit normalement à son tour. En cas d'échec, ou si le gardien ne fait pas le test, le compagnon entre en frénésie.</p>\n<p class=\"CORE-body\">Lorsqu'un compagnon entre en frénésie, il se déplace immédiatement jusqu'à sa vitesse vers la créature la plus proche et attaque cette créature avec son attaque signature (voir ci-dessous), infligeant des dégâts supplémentaires égaux à la moitié de sa férocité si l'attaque touche. Si au moins un allié et un ennemi sont les plus proches et à égale distance du compagnon, le joueur du gardien lance n'importe quel dé. Sur un nombre impair, le compagnon attaque un allié. Sur un nombre pair, le compagnon attaque un ennemi. Le joueur du gardien détermine quel allié ou ennemi spécifique le compagnon engage (et peut choisir son propre personnage s'il le souhaite).</p>\n<p class=\"CORE-body\">Un compagnon qui ne peut pas atteindre une créature à attaquer pendant une frénésie utilise l'action Foncer pour se déplacer aussi loin qu'il le peut vers la créature la plus proche. Si un compagnon ne peut pas détecter de cibles potentielles, il se déplace aussi loin qu'il le peut dans une direction aléatoire déterminée par le MJ, en évitant le danger.</p>\n<p class=\"CORE-body\">Lorsqu'un compagnon qui est entré en frénésie résout son action ou termine son tour, sa férocité tombe à 0 et il n'est plus en frénésie.</p>\n<p class=\"CORE-body\"><em>Note : Cette fonctionnalité est principalement destinée comme référence pendant le jeu et pour fournir l'Effet Actif \"En Frénésie\", qui doit être activé lorsque le gardien échoue à son test de Sagesse (Dressage) pour fournir le bonus de dégâts en frénésie. Les gardiens avec la fonctionnalité \"Frénésie Furieuse\" devraient plutôt activer l'Effet Actif \"Furieux\".</em></p>\n</div>"
+        }
+      }
+    },
+    "Gelatinous Cube Companion": {
+      "name": "Cube Gélatineux (Compagnon)",
+      "tokenName": "Cube Gélatineux (Compagnon)",
+      "items": {
+        "Pseudopod (Signature Attack)": {
+          "name": "Pseudopode (Attaque Signature)",
+		  "description": "<div class=\"mcdm-beastheart item\">\n<p class=\"CORE-body\">3 + bonus de maîtrise (BM) pour toucher, portée 5 ft., une cible. Touché: 1d6 + BM dégâts contondants.</p>\n</div>"
+        },
+        "Burning Acid (2 Ferocity, 1st Level)": {
+          "name": "Acide Brûlant (2 Férocité, Niveau 1)",
+		  "description": "<div class=\"mcdm-beastheart item\">\n<p class=\"CORE-body\">Le cube gélatineux effectue une attaque signature avec une portée de 10 pieds. En cas de réussite, l'attaque inflige des dégâts supplémentaires égaux au BM. De plus, une cible touchée par cette attaque ne peut pas regagner de points de vie jusqu'au début de votre prochain tour.</p>\n</div>"
+        },
+        "Slime Shower (5 Ferocity, 3rd Level)": {
+          "name": "Pluie de Gélatine (5 Férocité, Niveau 3)",
+		  "description": "<div class=\"mcdm-beastheart item\">\n<p class=\"CORE-body\">Le cube tournoie rapidement, faisant pleuvoir une pluie de slime collant et acide autour de lui. Chaque créature située à moins de 5 pieds du cube doit réussir un jet de sauvegarde de Dextérité (DD 10 + BM) ou subir 1d6 de dégâts d'acide et voir sa vitesse réduite à 0 jusqu'au début du prochain tour du cube. Le gardien du cube réussit automatiquement ce jet de sauvegarde.</p>\n</div>"
+        },
+        "Engulf (8 Ferocity, 5th Level)": {
+          "name": "Engouffrement (8 Férocité, Niveau 5)",
+		  "description": "<div class=\"mcdm-beastheart item\">\n<p class=\"CORE-body\">Le cube tente d'attirer une créature de taille Grande ou plus petite située à moins de 5 pieds de lui dans son corps. Cette créature doit réussir un jet de sauvegarde de Dextérité (DD 10 + BM) ou être attirée dans l'espace du cube sans provoquer d'opportunité d'attaque, subissant BMd6 de dégâts d'acide et étant engloutie en cas d'échec. En cas de réussite, la créature subit la moitié des dégâts, ne bouge pas et n'est pas engloutie.</p>\n<p>Une créature engloutie ne peut pas respirer, est entravée et subit BMd6 de dégâts d'acide au début de chaque tour du cube. Lorsque le cube se déplace, la créature engloutie se déplace avec lui. Une créature engloutie peut essayer de s'échapper en prenant une action pour effectuer un jet de Force (DD 10 + BM). En cas de réussite, la créature s'échappe et entre dans un espace de son choix situé à moins de 5 pieds du cube. Le cube peut engloutir une créature de taille Grande ou jusqu'à quatre créatures de taille Moyenne ou plus petite à la fois.</p>\n</div>"
+        },
+        "Flowing Form": {
+          "name": "Forme Fluide",
+		  "description": "<div class=\"mcdm-beastheart item\">\n<p class=\"CORE-body\">Le gardien du cube peut entrer dans un espace occupé par le cube sans être englouti. Lorsqu'il se trouve dans le même espace que le cube, le gardien peut attaquer et interagir avec les créatures englouties par le cube sans blesser ni subir de dégâts de la part du cube.</p>\n</div>"
+        },
+        "Transparent": {
+          "name": "Transparent",
+		  "description": "<div class=\"mcdm-beastheart item\">\n<p class=\"CORE-body\">Même lorsque le cube est à découvert, il faut réussir un test de Sagesse (Perception) DD 10 plus BM pour repérer un cube qui n'a ni bougé ni attaqué. Une créature qui tente d'entrer dans l'espace du cube sans être consciente de sa présence subit 3 (1d6) dégâts d'acide et ne peut pas entrer dans l'espace.</p>\n</div>"
+        },
+        "Monstrous Companion": {
+          "name": "Compagnon Monstrueux",
+          "description": "<div class=\"mcdm-beastheart\">\n<h3 class=\"Heading-2\">Le Gardien</h3>\n<p>En combat, un compagnon partage un tour avec son gardien et agit pendant le tour du gardien. Un compagnon peut se déplacer et utiliser sa propre réaction et action bonus de manière indépendante. Mais il ne peut prendre que les actions de Sauter, Désengager ou Esquiver à moins que son gardien utilise une action bonus pour commander au compagnon de prendre une action différente, y compris l'une des actions notées dans le bloc de statistiques du compagnon. Un compagnon doit être capable de voir ou d'entendre son gardien pour recevoir une commande. Un compagnon peut également prendre d'autres actions si son gardien est hors d'état de nuire, ou si le compagnon entre en frénésie (comme discuté ci-dessous).</p>\n<h3 class=\"Heading-2\">Contrôle du Compagnon</h3>\n<p class=\"SANS-body\">Si un gardien meurt ou est séparé d'un compagnon, le MJ détermine qui contrôle le compagnon. Dans certains cas, comme la mort d'un gardien, le joueur du gardien peut conserver le contrôle d'un compagnon faisant une dernière charge héroïque contre des ennemis. Mais dans les cas où un gardien et son compagnon sont physiquement séparés, comme lorsque le compagnon est capturé, le MJ peut vouloir prendre le contrôle du compagnon pour maintenir le joueur en suspens quant au sort de la créature.</p>\n<p class=\"SANS-body\"><em>Note: Cet objet de classe est destiné à être placé sur les feuilles de personnage de type 'compagnon' et son niveau doit correspondre à celui de son Gardien.</em></p>\n</div>"
+        },
+        "Rampage": {
+          "name": "Frénésie",
+          "description":"<div class=\"mcdm-beastheart item\">\n<p class=\"CORE-body\">Après avoir lancé les dés pour augmenter la férocité au début de son tour, si un compagnon a 10 points de férocité ou plus et n'est pas incapacité, il court le risque d'entrer dans une <span class=\"Bold\">frénésie</span>. Le gardien du compagnon peut faire un test de Sagesse (Dressage) (aucune action requise) pour essayer d'empêcher le compagnon d'entrer en frénésie. Pour faire le test, le gardien ne doit pas être incapacité, et le compagnon doit être capable de voir ou d'entendre le gardien. Le DD pour le test est égal à 5 + la férocité du compagnon. En cas de réussite, le compagnon agit normalement à son tour. En cas d'échec, ou si le gardien ne fait pas le test, le compagnon entre en frénésie.</p>\n<p class=\"CORE-body\">Lorsqu'un compagnon entre en frénésie, il se déplace immédiatement jusqu'à sa vitesse vers la créature la plus proche et attaque cette créature avec son attaque signature (voir ci-dessous), infligeant des dégâts supplémentaires égaux à la moitié de sa férocité si l'attaque touche. Si au moins un allié et un ennemi sont les plus proches et à égale distance du compagnon, le joueur du gardien lance n'importe quel dé. Sur un nombre impair, le compagnon attaque un allié. Sur un nombre pair, le compagnon attaque un ennemi. Le joueur du gardien détermine quel allié ou ennemi spécifique le compagnon engage (et peut choisir son propre personnage s'il le souhaite).</p>\n<p class=\"CORE-body\">Un compagnon qui ne peut pas atteindre une créature à attaquer pendant une frénésie utilise l'action Foncer pour se déplacer aussi loin qu'il le peut vers la créature la plus proche. Si un compagnon ne peut pas détecter de cibles potentielles, il se déplace aussi loin qu'il le peut dans une direction aléatoire déterminée par le MJ, en évitant le danger.</p>\n<p class=\"CORE-body\">Lorsqu'un compagnon qui est entré en frénésie résout son action ou termine son tour, sa férocité tombe à 0 et il n'est plus en frénésie.</p>\n<p class=\"CORE-body\"><em>Note : Cette fonctionnalité est principalement destinée comme référence pendant le jeu et pour fournir l'Effet Actif \"En Frénésie\", qui doit être activé lorsque le gardien échoue à son test de Sagesse (Dressage) pour fournir le bonus de dégâts en frénésie. Les gardiens avec la fonctionnalité \"Frénésie Furieuse\" devraient plutôt activer l'Effet Actif \"Furieux\".</em></p>\n</div>"
+        }
+      }
+    },
+    "Giant Spider Companion": {
+      "name": "Araignée Géante (Compagnon)",
+      "tokenName": "Araignée Géante (Compagnon)",
+      "items": {
+        "Bite (Signature Attack)": {
+          "name": "Morsure (Attaque Signature)",
+		  "description": "<div class=\"mcdm-beastheart item\">\n<p class=\"CORE-body\">3 + BM pour toucher, portée 5 ft., une cible. Touché: 1d6 + BM dégâts perforants.</p>\n</div>"
+        },
+        "Destabilizing Attack (2 Ferocity, 1st Level)": {
+          "name": "Attaque Déstabilisante (2 Férocité, Niveau 1)",
+		  "description": "<div class=\"mcdm-beastheart item\">\n<p class=\"CORE-body\">L'araignée effectue une attaque signature. En cas de réussite, l'attaque inflige ses effets normaux, et la cible subit un désavantage sur le prochain jet d'attaque qu'elle effectue avant le début du prochain tour de l'araignée.</p>\n</div>"
+        },
+        "Web (5 Ferocity, 3rd Level)": {
+          "name": "Toile (5 Férocité, Niveau 3)",
+		  "description": "<div class=\"mcdm-beastheart item\">\n<p class=\"CORE-body\">L'araignée lance des fils de toiles collantes sur une créature qu'elle peut voir dans un rayon de 60 pieds autour d'elle. La cible doit réussir un jet de sauvegarde de Dextérité (DD 10 + BM) sous peine d'être entravée par la toile. En tant qu'action, la cible entravée peut effectuer un jet de Force (DD 10 + BM), ce qui lui permet de rompre la toile et de mettre fin à sa condition d'entravement en cas de réussite.</p>\n</div>"
+        },
+        "Bite Frenzy (8 Ferocity, 5th Level)": {
+          "name": "Morsure Féroce (8 Férocité, Niveau 5)",
+		  "description": "<div class=\"mcdm-beastheart item\">\n<p class=\"CORE-body\">L'araignée effectue des attaques signatures contre un nombre BM de créatures de son choix dans un rayon de 5 pieds autour d'elle. En cas de réussite, la cible est empoisonnée jusqu'à la fin de son prochain tour.</p>\n<p><em>Note : Le nombre d'attaques est calculé dans une autre formule.</em></p>\n</div>"
+        },
+        "Sticky Stuff": {
+          "name": "Substance Collante",
+		  "description": "<div class=\"mcdm-beastheart item\">\n<p class=\"CORE-body\">Tant que le gardien de l'araignée est dans un rayon de 5 pieds d'elle, l'araignée peut enduire le bas des pieds ou des chaussures du gardien d'un adhésif sélectif. Cela permet au gardien de se déplacer vers le haut, vers le bas et sur des surfaces verticales et même à l'envers le long des plafonds, tout en laissant ses mains libres et en lui donnant une vitesse d'escalade égale à sa vitesse de marche. L'adhésif s'efface après 10 minutes.</p>\n</div>"
+        },
+        "Spider Climb": {
+          "name": "Adhérence",
+		  "description": "<div class=\"mcdm-beastheart item\">\n<p class=\"CORE-body\">L'araignée peut escalader des surfaces difficiles, y compris à l'envers sur les plafonds, sans avoir besoin de faire de test de compétence.</p>\n</div>"
+        },
+        "Web Sense": {
+          "name": "Toile Sensible",
+		  "description": "<div class=\"mcdm-beastheart item\">\n<p class=\"CORE-body\">Lorsqu'elle est en contact avec une toile, l'araignée connaît l'emplacement exact de toute autre créature en contact avec la même toile.</p>\n</div>"
+        },
+        "Web Walker": {
+          "name": "Parcours de Toile",
+		  "description": "<div class=\"mcdm-beastheart item\">\n<p class=\"CORE-body\">L'araignée ignore les restrictions de mouvement causées par les toiles.</p>\n</div>"
+        },
+        "Monstrous Companion": {
+          "name": "Compagnon Monstrueux",
+          "description": "<div class=\"mcdm-beastheart\">\n<h3 class=\"Heading-2\">Le Gardien</h3>\n<p>En combat, un compagnon partage un tour avec son gardien et agit pendant le tour du gardien. Un compagnon peut se déplacer et utiliser sa propre réaction et action bonus de manière indépendante. Mais il ne peut prendre que les actions de Sauter, Désengager ou Esquiver à moins que son gardien utilise une action bonus pour commander au compagnon de prendre une action différente, y compris l'une des actions notées dans le bloc de statistiques du compagnon. Un compagnon doit être capable de voir ou d'entendre son gardien pour recevoir une commande. Un compagnon peut également prendre d'autres actions si son gardien est hors d'état de nuire, ou si le compagnon entre en frénésie (comme discuté ci-dessous).</p>\n<h3 class=\"Heading-2\">Contrôle du Compagnon</h3>\n<p class=\"SANS-body\">Si un gardien meurt ou est séparé d'un compagnon, le MJ détermine qui contrôle le compagnon. Dans certains cas, comme la mort d'un gardien, le joueur du gardien peut conserver le contrôle d'un compagnon faisant une dernière charge héroïque contre des ennemis. Mais dans les cas où un gardien et son compagnon sont physiquement séparés, comme lorsque le compagnon est capturé, le MJ peut vouloir prendre le contrôle du compagnon pour maintenir le joueur en suspens quant au sort de la créature.</p>\n<p class=\"SANS-body\"><em>Note: Cet objet de classe est destiné à être placé sur les feuilles de personnage de type 'compagnon' et son niveau doit correspondre à celui de son Gardien.</em></p>\n</div>"
+        },
+        "Rampage": {
+          "name": "Frénésie",
+          "description":"<div class=\"mcdm-beastheart item\">\n<p class=\"CORE-body\">Après avoir lancé les dés pour augmenter la férocité au début de son tour, si un compagnon a 10 points de férocité ou plus et n'est pas incapacité, il court le risque d'entrer dans une <span class=\"Bold\">frénésie</span>. Le gardien du compagnon peut faire un test de Sagesse (Dressage) (aucune action requise) pour essayer d'empêcher le compagnon d'entrer en frénésie. Pour faire le test, le gardien ne doit pas être incapacité, et le compagnon doit être capable de voir ou d'entendre le gardien. Le DD pour le test est égal à 5 + la férocité du compagnon. En cas de réussite, le compagnon agit normalement à son tour. En cas d'échec, ou si le gardien ne fait pas le test, le compagnon entre en frénésie.</p>\n<p class=\"CORE-body\">Lorsqu'un compagnon entre en frénésie, il se déplace immédiatement jusqu'à sa vitesse vers la créature la plus proche et attaque cette créature avec son attaque signature (voir ci-dessous), infligeant des dégâts supplémentaires égaux à la moitié de sa férocité si l'attaque touche. Si au moins un allié et un ennemi sont les plus proches et à égale distance du compagnon, le joueur du gardien lance n'importe quel dé. Sur un nombre impair, le compagnon attaque un allié. Sur un nombre pair, le compagnon attaque un ennemi. Le joueur du gardien détermine quel allié ou ennemi spécifique le compagnon engage (et peut choisir son propre personnage s'il le souhaite).</p>\n<p class=\"CORE-body\">Un compagnon qui ne peut pas atteindre une créature à attaquer pendant une frénésie utilise l'action Foncer pour se déplacer aussi loin qu'il le peut vers la créature la plus proche. Si un compagnon ne peut pas détecter de cibles potentielles, il se déplace aussi loin qu'il le peut dans une direction aléatoire déterminée par le MJ, en évitant le danger.</p>\n<p class=\"CORE-body\">Lorsqu'un compagnon qui est entré en frénésie résout son action ou termine son tour, sa férocité tombe à 0 et il n'est plus en frénésie.</p>\n<p class=\"CORE-body\"><em>Note : Cette fonctionnalité est principalement destinée comme référence pendant le jeu et pour fournir l'Effet Actif \"En Frénésie\", qui doit être activé lorsque le gardien échoue à son test de Sagesse (Dressage) pour fournir le bonus de dégâts en frénésie. Les gardiens avec la fonctionnalité \"Frénésie Furieuse\" devraient plutôt activer l'Effet Actif \"Furieux\".</em></p>\n</div>"
+        }
+      }
+    },
+    "Giant Toad Companion": {
+      "name": "Crapaud Géant (Compagnon)",
+      "tokenName": "Crapaud Géant (Compagnon)",
+      "items": {
+        "Bite (Signature Attack)": {
+          "name": "Morsure (Attaque Signature)",
+		  "description": "<div class=\"mcdm-beastheart item\">\n<p class=\"CORE-body\">3 + bonus de maîtrise (BM) pour toucher, portée 5 ft., une cible. Touché: 1d6 + BM dégâts perforants.</p>\n</div>"
+        },
+        "Stretch Attack (2 Ferocity, 1st Level)": {
+          "name": "Attaque Étendue (2 Férocité, Niveau 1)",
+		  "description": "<div class=\"mcdm-beastheart item\">\n<p class=\"CORE-body\">Le crapaud effectue une attaque signature avec une portée de 10 pieds en utilisant sa langue. En cas de réussite, l'attaque inflige des dégâts supplémentaires égaux au BM et le crapaud peut tirer la cible vers lui sur 5 pieds.</p>\n</div>"
+        },
+        "Fast Food (5 Ferocity, 3rd Level)": {
+          "name": "Langue Collante (5 Férocité, Niveau 3)",
+		  "description": "<div class=\"mcdm-beastheart item\">\n<p class=\"CORE-body\">Le crapaud effectue une attaque signature. En cas de réussite, l'attaque inflige ses effets normaux et le crapaud peut sauter jusqu'à 20 pieds dans n'importe quelle direction sans provoquer d'attaques d'opportunité. Si la cible de l'attaque est de taille Grande ou plus petite, le crapaud emporte la cible avec lui.</p>\n</div>"
+        },
+        "Swallow (8 Ferocity, 5th Level)": {
+          "name": "Engloutissement (8 Férocité, Niveau 5)",
+		  "description": "<div class=\"mcdm-beastheart item\">\n<p class=\"CORE-body\">Le crapaud tente d'avaler une créature de taille Moyenne ou plus petite se trouvant à moins de 5 pieds de lui, celle-ci doit réussir un jet de sauvegarde de Dextérité contre un DD de 10 plus BM. En cas d'échec, la cible subit BMd6 de dégâts contondants et est avalée. En cas de réussite, la cible subit la moitié des dégâts et n'est pas avalée.</p><p class=\"CORE-body\">Une fois avalée, la cible est aveuglée et immobilisée, elle bénéficie d'un abri total contre les attaques et autres effets extérieurs au crapaud, et elle subit BMd6 de dégâts d'acide au début de chaque tour du crapaud. Le crapaud ne peut avaler qu'une seule cible à la fois.</p><p class=\"CORE-body\">À chaque fois que le crapaud subit des dégâts, il doit réussir un jet de sauvegarde de Constitution ou régurgiter la créature avalée, qui tombe à terre dans un espace situé à moins de 5 pieds du crapaud. Le DD de ce jet de sauvegarde est égal à 10 ou à la moitié des dégâts subis par le crapaud, selon le montant le plus élevé. Si le crapaud est incapacité ou meurt, une créature avalée n'est plus retenue par le crapaud et peut s'échapper du corps en utilisant 5 pieds de mouvement, en sortant à terre.</p>\n</div>"
+        },
+        "Psychedelic Skin": {
+          "name": "Peau Psychédélique",
+		  "description": "<div class=\"mcdm-beastheart item\">\n<p class=\"CORE-body\">Lorsque le gardien du crapaud se trouve à moins de 5 pieds du crapaud, ce dernier peut utiliser une action bonus pour enduire une arme de mêlée tenue par le gardien avec le poison sécrété par sa peau. Le poison dure pendant 1 heure ou jusqu'à ce que l'arme inflige des dégâts dans le cadre d'une attaque. Lorsqu'une créature subit des dégâts de l'arme, elle doit réussir un jet de sauvegarde de Constitution contre un DD de 10 + BM ou être empoisonnée pendant 1 minute. La créature peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même en cas de succès.</p>\n</div>"
+        },
+        "Amphibious": {
+          "name": "Amphibien",
+		  "description": "<div class=\"mcdm-beastheart item\">\n<p class=\"CORE-body\">Le crapaud peut respirer dans l'air et dans l'eau.</p>\n</div>"
+        },
+        "Standing Leap": {
+          "name": "Saut Long",
+		  "description": "<div class=\"mcdm-beastheart item\">\n<p class=\"CORE-body\">Le saut en longueur du crapaud peut atteindre jusqu'à 20 pieds et son saut en hauteur peut atteindre jusqu'à 10 pieds, avec ou sans élan.</p>\n</div>"
+        },
+        "Monstrous Companion": {
+          "name": "Compagnon Monstrueux",
+          "description": "<div class=\"mcdm-beastheart\">\n<h3 class=\"Heading-2\">Le Gardien</h3>\n<p>En combat, un compagnon partage un tour avec son gardien et agit pendant le tour du gardien. Un compagnon peut se déplacer et utiliser sa propre réaction et action bonus de manière indépendante. Mais il ne peut prendre que les actions de Sauter, Désengager ou Esquiver à moins que son gardien utilise une action bonus pour commander au compagnon de prendre une action différente, y compris l'une des actions notées dans le bloc de statistiques du compagnon. Un compagnon doit être capable de voir ou d'entendre son gardien pour recevoir une commande. Un compagnon peut également prendre d'autres actions si son gardien est hors d'état de nuire, ou si le compagnon entre en frénésie (comme discuté ci-dessous).</p>\n<h3 class=\"Heading-2\">Contrôle du Compagnon</h3>\n<p class=\"SANS-body\">Si un gardien meurt ou est séparé d'un compagnon, le MJ détermine qui contrôle le compagnon. Dans certains cas, comme la mort d'un gardien, le joueur du gardien peut conserver le contrôle d'un compagnon faisant une dernière charge héroïque contre des ennemis. Mais dans les cas où un gardien et son compagnon sont physiquement séparés, comme lorsque le compagnon est capturé, le MJ peut vouloir prendre le contrôle du compagnon pour maintenir le joueur en suspens quant au sort de la créature.</p>\n<p class=\"SANS-body\"><em>Note: Cet objet de classe est destiné à être placé sur les feuilles de personnage de type 'compagnon' et son niveau doit correspondre à celui de son Gardien.</em></p>\n</div>"
+        },
+        "Rampage": {
+          "name": "Frénésie",
+          "description":"<div class=\"mcdm-beastheart item\">\n<p class=\"CORE-body\">Après avoir lancé les dés pour augmenter la férocité au début de son tour, si un compagnon a 10 points de férocité ou plus et n'est pas incapacité, il court le risque d'entrer dans une <span class=\"Bold\">frénésie</span>. Le gardien du compagnon peut faire un test de Sagesse (Dressage) (aucune action requise) pour essayer d'empêcher le compagnon d'entrer en frénésie. Pour faire le test, le gardien ne doit pas être incapacité, et le compagnon doit être capable de voir ou d'entendre le gardien. Le DD pour le test est égal à 5 + la férocité du compagnon. En cas de réussite, le compagnon agit normalement à son tour. En cas d'échec, ou si le gardien ne fait pas le test, le compagnon entre en frénésie.</p>\n<p class=\"CORE-body\">Lorsqu'un compagnon entre en frénésie, il se déplace immédiatement jusqu'à sa vitesse vers la créature la plus proche et attaque cette créature avec son attaque signature (voir ci-dessous), infligeant des dégâts supplémentaires égaux à la moitié de sa férocité si l'attaque touche. Si au moins un allié et un ennemi sont les plus proches et à égale distance du compagnon, le joueur du gardien lance n'importe quel dé. Sur un nombre impair, le compagnon attaque un allié. Sur un nombre pair, le compagnon attaque un ennemi. Le joueur du gardien détermine quel allié ou ennemi spécifique le compagnon engage (et peut choisir son propre personnage s'il le souhaite).</p>\n<p class=\"CORE-body\">Un compagnon qui ne peut pas atteindre une créature à attaquer pendant une frénésie utilise l'action Foncer pour se déplacer aussi loin qu'il le peut vers la créature la plus proche. Si un compagnon ne peut pas détecter de cibles potentielles, il se déplace aussi loin qu'il le peut dans une direction aléatoire déterminée par le MJ, en évitant le danger.</p>\n<p class=\"CORE-body\">Lorsqu'un compagnon qui est entré en frénésie résout son action ou termine son tour, sa férocité tombe à 0 et il n'est plus en frénésie.</p>\n<p class=\"CORE-body\"><em>Note : Cette fonctionnalité est principalement destinée comme référence pendant le jeu et pour fournir l'Effet Actif \"En Frénésie\", qui doit être activé lorsque le gardien échoue à son test de Sagesse (Dressage) pour fournir le bonus de dégâts en frénésie. Les gardiens avec la fonctionnalité \"Frénésie Furieuse\" devraient plutôt activer l'Effet Actif \"Furieux\".</em></p>\n</div>"
+        }
+      }
+    },
+    "Giant Weasel Companion": {
+      "name": "Belette Géante (Compagnon)",
+      "tokenName": "Belette Géante (Compagnon)",
+      "items": {
+        "Bite (Signature Attack)": {
+          "name": "Morsure (Attaque Signature)",
+		  "description": "<div class=\"mcdm-beastheart item\">\n<p class=\"CORE-body\">3 + bonus de maîtrise (BM) pour toucher, portée 5 ft., une cible. Touché: 1d6 + BM dégâts perforants.</p>\n</div>"
+        },
+        "Overwhelming Attack (2 Ferocity, 1st Level)": {
+          "name": "Griffures Innombrables (2 Férocité, Niveau 1)",
+		  "description": "<div class=\"mcdm-beastheart item\">\n<p class=\"CORE-body\">La belette effectue une attaque signature. En cas de réussite, l'attaque inflige des dégâts supplémentaires égaux au BM, et la cible ne peut pas prendre de réactions jusqu'au début du prochain tour de la belette.</p>\n</div>"
+        },
+        "Clamp Down (5 Ferocity, 3rd Level)": {
+          "name": "Accrochage (5 Férocité, Niveau 3)",
+		  "description": "<div class=\"mcdm-beastheart item\">\n<p class=\"CORE-body\">La belette effectue une attaque signature. En cas de réussite, l'attaque inflige ses effets normaux, et la cible est saisie (DD d'évasion de 10 plus BM). Pendant la saisie, la cible est entravée et la belette ne peut pas mordre une autre cible.</p>\n</div>"
+        },
+        "Bite Frenzy (8 Ferocity, 5th Level)": {
+          "name": "Morsure Féroce (8 Férocité, Niveau 5)",
+		  "description": "<div class=\"mcdm-beastheart item\">\n<p class=\"CORE-body\">La belette effectue des attaques signature contre un nombre de créatures égal au BM, choisies par elle, se trouvant à moins de 5 pieds d'elle. En cas de réussite, la cible est renversée.</p>\n</div>"
+        },
+        "Keen Hearing and Smell": {
+          "name": "Odorat et Ouïe Aiguisés",
+		  "description": "<div class=\"mcdm-beastheart item\">\n<p class=\"CORE-body\">La belette a l'avantage sur les tests de Sagesse (Perception) qui reposent sur l'ouïe ou l'odorat.</p>\n</div>"
+        },
+        "Treasure Sense": {
+          "name": "Détection de Trésor",
+		  "description": "<div class=\"mcdm-beastheart item\">\n<p class=\"CORE-body\">La belette peut localiser, par l'odeur, l'emplacement des métaux précieux et des pierres précieuses, telles que les pièces de monnaie et les gemmes, dans un rayon de 10 pieds autour d'elle.</p>\n</div>"
+        },
+        "Monstrous Companion": {
+          "name": "Compagnon Monstrueux",
+          "description": "<div class=\"mcdm-beastheart\">\n<h3 class=\"Heading-2\">Le Gardien</h3>\n<p>En combat, un compagnon partage un tour avec son gardien et agit pendant le tour du gardien. Un compagnon peut se déplacer et utiliser sa propre réaction et action bonus de manière indépendante. Mais il ne peut prendre que les actions de Sauter, Désengager ou Esquiver à moins que son gardien utilise une action bonus pour commander au compagnon de prendre une action différente, y compris l'une des actions notées dans le bloc de statistiques du compagnon. Un compagnon doit être capable de voir ou d'entendre son gardien pour recevoir une commande. Un compagnon peut également prendre d'autres actions si son gardien est hors d'état de nuire, ou si le compagnon entre en frénésie (comme discuté ci-dessous).</p>\n<h3 class=\"Heading-2\">Contrôle du Compagnon</h3>\n<p class=\"SANS-body\">Si un gardien meurt ou est séparé d'un compagnon, le MJ détermine qui contrôle le compagnon. Dans certains cas, comme la mort d'un gardien, le joueur du gardien peut conserver le contrôle d'un compagnon faisant une dernière charge héroïque contre des ennemis. Mais dans les cas où un gardien et son compagnon sont physiquement séparés, comme lorsque le compagnon est capturé, le MJ peut vouloir prendre le contrôle du compagnon pour maintenir le joueur en suspens quant au sort de la créature.</p>\n<p class=\"SANS-body\"><em>Note: Cet objet de classe est destiné à être placé sur les feuilles de personnage de type 'compagnon' et son niveau doit correspondre à celui de son Gardien.</em></p>\n</div>"
+        },
+        "Rampage": {
+          "name": "Frénésie",
+          "description":"<div class=\"mcdm-beastheart item\">\n<p class=\"CORE-body\">Après avoir lancé les dés pour augmenter la férocité au début de son tour, si un compagnon a 10 points de férocité ou plus et n'est pas incapacité, il court le risque d'entrer dans une <span class=\"Bold\">frénésie</span>. Le gardien du compagnon peut faire un test de Sagesse (Dressage) (aucune action requise) pour essayer d'empêcher le compagnon d'entrer en frénésie. Pour faire le test, le gardien ne doit pas être incapacité, et le compagnon doit être capable de voir ou d'entendre le gardien. Le DD pour le test est égal à 5 + la férocité du compagnon. En cas de réussite, le compagnon agit normalement à son tour. En cas d'échec, ou si le gardien ne fait pas le test, le compagnon entre en frénésie.</p>\n<p class=\"CORE-body\">Lorsqu'un compagnon entre en frénésie, il se déplace immédiatement jusqu'à sa vitesse vers la créature la plus proche et attaque cette créature avec son attaque signature (voir ci-dessous), infligeant des dégâts supplémentaires égaux à la moitié de sa férocité si l'attaque touche. Si au moins un allié et un ennemi sont les plus proches et à égale distance du compagnon, le joueur du gardien lance n'importe quel dé. Sur un nombre impair, le compagnon attaque un allié. Sur un nombre pair, le compagnon attaque un ennemi. Le joueur du gardien détermine quel allié ou ennemi spécifique le compagnon engage (et peut choisir son propre personnage s'il le souhaite).</p>\n<p class=\"CORE-body\">Un compagnon qui ne peut pas atteindre une créature à attaquer pendant une frénésie utilise l'action Foncer pour se déplacer aussi loin qu'il le peut vers la créature la plus proche. Si un compagnon ne peut pas détecter de cibles potentielles, il se déplace aussi loin qu'il le peut dans une direction aléatoire déterminée par le MJ, en évitant le danger.</p>\n<p class=\"CORE-body\">Lorsqu'un compagnon qui est entré en frénésie résout son action ou termine son tour, sa férocité tombe à 0 et il n'est plus en frénésie.</p>\n<p class=\"CORE-body\"><em>Note : Cette fonctionnalité est principalement destinée comme référence pendant le jeu et pour fournir l'Effet Actif \"En Frénésie\", qui doit être activé lorsque le gardien échoue à son test de Sagesse (Dressage) pour fournir le bonus de dégâts en frénésie. Les gardiens avec la fonctionnalité \"Frénésie Furieuse\" devraient plutôt activer l'Effet Actif \"Furieux\".</em></p>\n</div>"
+        }
+      }
+    },
+    "Hell Hound Companion": {
+      "name": "Molosse Infernal (Compagnon)",
+      "tokenName": "Molosse Infernal (Compagnon)",
+      "items": {
+        "Bite (Signature Attack)": {
+          "name": "Morsure (Attaque Signature)",
+		  "description": "<div class=\"mcdm-beastheart item\">\n<p class=\"CORE-body\">3 + bonus de maîtrise (BM) pour toucher, portée 5 ft., une cible. Touché: 1d6 + BM dégâts perforants.</p>\n</div>"
+        },
+        "Lava Spittle (2 Ferocity, 1st Level)": {
+          "name": "Crachat de Lave (2 Férocité, Niveau 1)",
+		  "description": "<div class=\"mcdm-beastheart item\">\n<p class=\"CORE-body\">Le molosse effectue une attaque signature. En cas de succès, l'attaque inflige des dégâts supplémentaires égaux au BM, et une créature choisie par le molosse dans un rayon de 5 pieds autour d'eux, autre que la cible, subit des dégâts de feu égaux au BM.</p>\n</div>"
+        },
+        "Brutal Charge (5 Ferocity, 3rd Level)": {
+          "name": "Charge Brutale (5 Férocité, Niveau 3)",
+		  "description": "<div class=\"mcdm-beastheart item\">\n<p class=\"CORE-body\">Le molosse peut se déplacer jusqu'à sa vitesse sans provoquer d'attaques d'opportunité. Pendant ou à la fin de ce déplacement, il peut effectuer une attaque signature contre une cible.</p>\n</div>"
+        },
+        "Fire Breath (8 Ferocity, 5th Level)": {
+          "name": "Souffle Enflammé (8 Férocité, Niveau 5)",
+		  "description": "<div class=\"mcdm-beastheart item\">\n<p class=\"CORE-body\">Le molosse expire du feu dans un cône de 15 pieds. Chaque créature dans cette zone doit réussir un jet de sauvegarde de Dextérité (DD 10 + BM) ou subir BMd6 de dégâts de feu en cas d'échec, ou la moitié de ces dégâts en cas de réussite.</p>\n</div>"
+        },
+        "Consult Hell": {
+          "name": "Consultation Infernale",
+		  "description": "<div class=\"mcdm-beastheart item\">\n<p class=\"CORE-body\">Le gardien du molosse peut parler au molosse d'un plan spécifique qu'il prévoit de suivre dans les 30 prochaines minutes, en utilisant le pouvoir divinatoire à travers la connexion du molosse au royaume infernal. Après 1 minute, le molosse donne une réponse basée sur son propre sens prophétique objectif du résultat : un aboiement pour de bons résultats, deux aboiements pour de mauvais résultats, trois aboiements pour à la fois de bons et de mauvais résultats, et aucun aboiement pour des résultats qui ne sont pas particulièrement bons ou mauvais.</p>\n</div>"
+        },
+        "Keen Hearing and Smell": {
+          "name": "Odorat et Ouïe Aiguisés",
+		  "description": "<div class=\"mcdm-beastheart item\">\n<p class=\"CORE-body\">Le molosse a l'avantage sur les tests de Sagesse (Perception) qui reposent sur l'ouïe ou l'odorat.</p>\n</div>"
+        },
+        "Monstrous Companion": {
+          "name": "Compagnon Monstrueux",
+          "description": "<div class=\"mcdm-beastheart\">\n<h3 class=\"Heading-2\">Le Gardien</h3>\n<p>En combat, un compagnon partage un tour avec son gardien et agit pendant le tour du gardien. Un compagnon peut se déplacer et utiliser sa propre réaction et action bonus de manière indépendante. Mais il ne peut prendre que les actions de Sauter, Désengager ou Esquiver à moins que son gardien utilise une action bonus pour commander au compagnon de prendre une action différente, y compris l'une des actions notées dans le bloc de statistiques du compagnon. Un compagnon doit être capable de voir ou d'entendre son gardien pour recevoir une commande. Un compagnon peut également prendre d'autres actions si son gardien est hors d'état de nuire, ou si le compagnon entre en frénésie (comme discuté ci-dessous).</p>\n<h3 class=\"Heading-2\">Contrôle du Compagnon</h3>\n<p class=\"SANS-body\">Si un gardien meurt ou est séparé d'un compagnon, le MJ détermine qui contrôle le compagnon. Dans certains cas, comme la mort d'un gardien, le joueur du gardien peut conserver le contrôle d'un compagnon faisant une dernière charge héroïque contre des ennemis. Mais dans les cas où un gardien et son compagnon sont physiquement séparés, comme lorsque le compagnon est capturé, le MJ peut vouloir prendre le contrôle du compagnon pour maintenir le joueur en suspens quant au sort de la créature.</p>\n<p class=\"SANS-body\"><em>Note: Cet objet de classe est destiné à être placé sur les feuilles de personnage de type 'compagnon' et son niveau doit correspondre à celui de son Gardien.</em></p>\n</div>"
+        },
+        "Rampage": {
+          "name": "Frénésie",
+          "description":"<div class=\"mcdm-beastheart item\">\n<p class=\"CORE-body\">Après avoir lancé les dés pour augmenter la férocité au début de son tour, si un compagnon a 10 points de férocité ou plus et n'est pas incapacité, il court le risque d'entrer dans une <span class=\"Bold\">frénésie</span>. Le gardien du compagnon peut faire un test de Sagesse (Dressage) (aucune action requise) pour essayer d'empêcher le compagnon d'entrer en frénésie. Pour faire le test, le gardien ne doit pas être incapacité, et le compagnon doit être capable de voir ou d'entendre le gardien. Le DD pour le test est égal à 5 + la férocité du compagnon. En cas de réussite, le compagnon agit normalement à son tour. En cas d'échec, ou si le gardien ne fait pas le test, le compagnon entre en frénésie.</p>\n<p class=\"CORE-body\">Lorsqu'un compagnon entre en frénésie, il se déplace immédiatement jusqu'à sa vitesse vers la créature la plus proche et attaque cette créature avec son attaque signature (voir ci-dessous), infligeant des dégâts supplémentaires égaux à la moitié de sa férocité si l'attaque touche. Si au moins un allié et un ennemi sont les plus proches et à égale distance du compagnon, le joueur du gardien lance n'importe quel dé. Sur un nombre impair, le compagnon attaque un allié. Sur un nombre pair, le compagnon attaque un ennemi. Le joueur du gardien détermine quel allié ou ennemi spécifique le compagnon engage (et peut choisir son propre personnage s'il le souhaite).</p>\n<p class=\"CORE-body\">Un compagnon qui ne peut pas atteindre une créature à attaquer pendant une frénésie utilise l'action Foncer pour se déplacer aussi loin qu'il le peut vers la créature la plus proche. Si un compagnon ne peut pas détecter de cibles potentielles, il se déplace aussi loin qu'il le peut dans une direction aléatoire déterminée par le MJ, en évitant le danger.</p>\n<p class=\"CORE-body\">Lorsqu'un compagnon qui est entré en frénésie résout son action ou termine son tour, sa férocité tombe à 0 et il n'est plus en frénésie.</p>\n<p class=\"CORE-body\"><em>Note : Cette fonctionnalité est principalement destinée comme référence pendant le jeu et pour fournir l'Effet Actif \"En Frénésie\", qui doit être activé lorsque le gardien échoue à son test de Sagesse (Dressage) pour fournir le bonus de dégâts en frénésie. Les gardiens avec la fonctionnalité \"Frénésie Furieuse\" devraient plutôt activer l'Effet Actif \"Furieux\".</em></p>\n</div>"
+        }
+      }
+    },
+    "Mimic Companion": {
+      "name": "Mimique (Compagnon)",
+      "tokenName": "Mimique (Compagnon)",
+      "items": {
+        "Bite (Signature Attack)": {
+          "name": "Morsure (Attaque Signature)",
+		  "description": "<div class=\"mcdm-beastheart item\">\n<p class=\"CORE-body\">3 + bonus de maîtrise (BM) pour toucher, portée 5 ft., une cible. Touché: 1d6 + BM dégâts perforants.</p>\n</div>"
+        },
+        "Distracting Attack (2 Ferocity, 1st Level)": {
+          "name": "Attaque Distrayante (2 Férocité, Niveau 1)",
+		  "description": "<div class=\"mcdm-beastheart item\">\n<p class=\"CORE-body\">La mimique effectue une attaque signature. En cas de réussite, l'attaque inflige ses effets normaux, et la prochaine attaque dirigée contre la cible avant le début du prochain tour du mimic bénéficie d'un avantage.</p>\n</div>"
+        },
+        "Adhesive Pseudopods (5 Ferocity, 3rd Level)": {
+          "name": "Pseudopodes Adhésives (5 Férocité, Niveau 3)",
+		  "description": "<div class=\"mcdm-beastheart item\">\n<p class=\"CORE-body\">La mimique tente de toucher chaque créature de son choix se trouvant à moins de 5 pieds de lui. Chaque cible doit réussir un jet de sauvegarde de Dextérité avec un DD de 10 plus BM de la mimique, sinon elle est saisie (DD d'évasion de 10 plus BM).</p>\n</div>"
+        },
+        "I’m You (8 Ferocity, 5th Level)": {
+          "name": "Je suis Toi (8 Férocité, Niveau 5)",
+		  "description": "<div class=\"mcdm-beastheart item\">\n<p class=\"CORE-body\">La mimique utilise son trait de Change-forme pour se polymorpher en une créature de taille Grande ou plus petite qu'il peut voir à moins de 5 pieds de lui. Cette transformation dure jusqu'au début du prochain tour du mimic. À part la taille, les statistiques de la mimique ne changent pas.</p><p>Après s'être transformé, la mimique peut effectuer une attaque signature contre la créature dont il a pris la forme, et cette créature doit également réussir un jet de sauvegarde de Sagesse avec un DD de 10 plus BM de la mimique. En cas d'échec, la créature a désavantage aux jets d'attaque et aux jets de sauvegarde, et les attaques contre elle ont l'avantage, jusqu'au début du prochain tour de la mimique.</p>\n</div>"
+        },
+        "Wearable Companion": {
+          "name": "Compagnon Portable",
+		  "description": "<div class=\"mcdm-beastheart item\">\n<p class=\"CORE-body\">Tant que la mimique est à moins de 5 pieds de son gardien, il peut recouvrir le corps du gardien et prendre l'apparence de vêtements.</p><p>En portant la mimique, le gardien peut changer l'apparence de ses vêtements à volonté (aucune action requise) tant qu'il n'est pas incapacité, et a l'avantage sur les jets de Dextérité (Discrétion). Toute attaque qui touche le gardien touche également la mimique, et vice versa, les deux subissant les dégâts et l'effet complet de l'attaque.</p><p>Lorsqu'elle est porté de cette manière, la mimique ne peut pas se déplacer ou prendre d'actions sauf pour revenir à sa forme la plus récente (une action bonus), ce qui met fin à l'état d'être porté par son gardien. Si la mimique entre en frénésie, l'état d'être porté prend fin immédiatement. Lorsque la mimique n'est plus porté par le gardien, il entre dans l'espace libre le plus proche de son choix.</p>\n</div>"
+        },
+        "Shapechanger": {
+          "name": "Immitateur",
+		  "description": "<div class=\"mcdm-beastheart item\">\n<p class=\"CORE-body\">La mimique peut utiliser son action pour se polymorpher en un objet ou revenir à sa forme véritable et amorphe. Ses statistiques sont les mêmes dans chaque forme. Tout équipement qu'il porte ou transporte n'est pas transformé. Le mimic reprend sa forme véritable s'il meurt.</p>\n</div>"
+        },
+        "False Appearance (Object Form Only)": {
+          "name": "Fausse Apparence (Objets Seulement)",
+		  "description": "<div class=\"mcdm-beastheart item\">\n<p class=\"CORE-body\">Tant que le mimic reste immobile, il est indiscernable d'un objet ordinaire.</p>\n</div>"
+        },
+        "Monstrous Companion": {
+          "name": "Compagnon Monstrueux",
+          "description": "<div class=\"mcdm-beastheart\">\n<h3 class=\"Heading-2\">Le Gardien</h3>\n<p>En combat, un compagnon partage un tour avec son gardien et agit pendant le tour du gardien. Un compagnon peut se déplacer et utiliser sa propre réaction et action bonus de manière indépendante. Mais il ne peut prendre que les actions de Sauter, Désengager ou Esquiver à moins que son gardien utilise une action bonus pour commander au compagnon de prendre une action différente, y compris l'une des actions notées dans le bloc de statistiques du compagnon. Un compagnon doit être capable de voir ou d'entendre son gardien pour recevoir une commande. Un compagnon peut également prendre d'autres actions si son gardien est hors d'état de nuire, ou si le compagnon entre en frénésie (comme discuté ci-dessous).</p>\n<h3 class=\"Heading-2\">Contrôle du Compagnon</h3>\n<p class=\"SANS-body\">Si un gardien meurt ou est séparé d'un compagnon, le MJ détermine qui contrôle le compagnon. Dans certains cas, comme la mort d'un gardien, le joueur du gardien peut conserver le contrôle d'un compagnon faisant une dernière charge héroïque contre des ennemis. Mais dans les cas où un gardien et son compagnon sont physiquement séparés, comme lorsque le compagnon est capturé, le MJ peut vouloir prendre le contrôle du compagnon pour maintenir le joueur en suspens quant au sort de la créature.</p>\n<p class=\"SANS-body\"><em>Note: Cet objet de classe est destiné à être placé sur les feuilles de personnage de type 'compagnon' et son niveau doit correspondre à celui de son Gardien.</em></p>\n</div>"
+        },
+        "Rampage": {
+          "name": "Frénésie",
+          "description":"<div class=\"mcdm-beastheart item\">\n<p class=\"CORE-body\">Après avoir lancé les dés pour augmenter la férocité au début de son tour, si un compagnon a 10 points de férocité ou plus et n'est pas incapacité, il court le risque d'entrer dans une <span class=\"Bold\">frénésie</span>. Le gardien du compagnon peut faire un test de Sagesse (Dressage) (aucune action requise) pour essayer d'empêcher le compagnon d'entrer en frénésie. Pour faire le test, le gardien ne doit pas être incapacité, et le compagnon doit être capable de voir ou d'entendre le gardien. Le DD pour le test est égal à 5 + la férocité du compagnon. En cas de réussite, le compagnon agit normalement à son tour. En cas d'échec, ou si le gardien ne fait pas le test, le compagnon entre en frénésie.</p>\n<p class=\"CORE-body\">Lorsqu'un compagnon entre en frénésie, il se déplace immédiatement jusqu'à sa vitesse vers la créature la plus proche et attaque cette créature avec son attaque signature (voir ci-dessous), infligeant des dégâts supplémentaires égaux à la moitié de sa férocité si l'attaque touche. Si au moins un allié et un ennemi sont les plus proches et à égale distance du compagnon, le joueur du gardien lance n'importe quel dé. Sur un nombre impair, le compagnon attaque un allié. Sur un nombre pair, le compagnon attaque un ennemi. Le joueur du gardien détermine quel allié ou ennemi spécifique le compagnon engage (et peut choisir son propre personnage s'il le souhaite).</p>\n<p class=\"CORE-body\">Un compagnon qui ne peut pas atteindre une créature à attaquer pendant une frénésie utilise l'action Foncer pour se déplacer aussi loin qu'il le peut vers la créature la plus proche. Si un compagnon ne peut pas détecter de cibles potentielles, il se déplace aussi loin qu'il le peut dans une direction aléatoire déterminée par le MJ, en évitant le danger.</p>\n<p class=\"CORE-body\">Lorsqu'un compagnon qui est entré en frénésie résout son action ou termine son tour, sa férocité tombe à 0 et il n'est plus en frénésie.</p>\n<p class=\"CORE-body\"><em>Note : Cette fonctionnalité est principalement destinée comme référence pendant le jeu et pour fournir l'Effet Actif \"En Frénésie\", qui doit être activé lorsque le gardien échoue à son test de Sagesse (Dressage) pour fournir le bonus de dégâts en frénésie. Les gardiens avec la fonctionnalité \"Frénésie Furieuse\" devraient plutôt activer l'Effet Actif \"Furieux\".</em></p>\n</div>"
+        }
+      }
+    },
+    "Owlbear Companion": {
+      "name": "Ours-Hibou (Compagnon)",
+      "tokenName": "Ours-Hibou (Compagnon)",
+      "items": {
+        "Claws (Signature Attack)": {
+          "name": "Griffes (Attaque Signature)",
+		  "description": "<div class=\"mcdm-beastheart item\">\n<p class=\"CORE-body\">3 + bonus de maîtrise (BM) pour toucher, portée 5 ft., une cible. Touché: 1d6 + BM dégâts tranchants.</p>\n</div>"
+        },
+        "Violent Attack (2 Ferocity, 1st Level)": {
+          "name": "Coup Violent (2 Férocité, Niveau 1)",
+		  "description": "<div class=\"mcdm-beastheart item\">\n<p class=\"CORE-body\">L'ours-hibou effectue une attaque signature. En cas de succès, l'attaque inflige des dégâts supplémentaires égaux au BM, et l'ours-hibou peut déplacer la cible de 5 pieds dans n'importe quelle direction.</p>\n</div>"
+        },
+        "Owlie Oop (5 Ferocity, 3rd Level)": {
+          "name": "Décolage Lourd (5 Férocité, Niveau 3)",
+		  "description": "<div class=\"mcdm-beastheart item\">\n<p class=\"CORE-body\">L'ours-hibou saute jusqu'à 20 pieds sans provoquer d'attaques d'opportunité. À son atterrissage, chaque créature se trouvant dans un rayon de 5 pieds autour de lui doit réussir un jet de sauvegarde de Force contre un DD de 10 plus BM ou être renversée.</p>\n</div>"
+        },
+        "Bear Hug (8 Ferocity, 5th Level)": {
+          "name": "Prise de l'Ours (8 Férocité, Niveau 5)",
+		  "description": "<div class=\"mcdm-beastheart item\">\n<p class=\"CORE-body\">L'ours-hibou tente d'attraper et d'écraser une créature se trouvant à moins de 5 pieds d'eux et qu'ils peuvent voir, qui doit réussir un jet de sauvegarde de Dextérité contre un DD de 10 plus BM. En cas d'échec, la cible subit BMd10 dégâts contondants et est agrippée (DD d'évasion de 10 plus BM). En cas de réussite, la cible subit la moitié des dégâts et n'est pas agrippée. Jusqu'à la fin de cet agrippement, la cible est également entravée. L'agrippement prend fin si l'ours-hibou utilise une prise de l'ours sur une autre cible.</p>\n</div>"
+        },
+        "Give a Hoot": {
+          "name": "Cri d'Encouragement",
+		  "description": "<div class=\"mcdm-beastheart item\">\n<p class=\"CORE-body\">L'ours-hibou pousse un cri de guerre unique. Si le gardien de l'ours-hibou peut entendre ce cri, le gardien gagne 5 fois BM en points de vie temporaires.</p>\n</div>"
+        },
+        "Keen Sight and Smell": {
+          "name": "Odorat et Ouïe Aiguisés",
+		  "description": "<div class=\"mcdm-beastheart item\">\n<p class=\"CORE-body\">L'ours-hibou a l'avantage aux tests de Sagesse (Perception) qui reposent sur la vue ou l'odorat.</p>\n</div>"
+        },
+        "Monstrous Companion": {
+          "name": "Compagnon Monstrueux",
+          "description": "<div class=\"mcdm-beastheart\">\n<h3 class=\"Heading-2\">Le Gardien</h3>\n<p>En combat, un compagnon partage un tour avec son gardien et agit pendant le tour du gardien. Un compagnon peut se déplacer et utiliser sa propre réaction et action bonus de manière indépendante. Mais il ne peut prendre que les actions de Sauter, Désengager ou Esquiver à moins que son gardien utilise une action bonus pour commander au compagnon de prendre une action différente, y compris l'une des actions notées dans le bloc de statistiques du compagnon. Un compagnon doit être capable de voir ou d'entendre son gardien pour recevoir une commande. Un compagnon peut également prendre d'autres actions si son gardien est hors d'état de nuire, ou si le compagnon entre en frénésie (comme discuté ci-dessous).</p>\n<h3 class=\"Heading-2\">Contrôle du Compagnon</h3>\n<p class=\"SANS-body\">Si un gardien meurt ou est séparé d'un compagnon, le MJ détermine qui contrôle le compagnon. Dans certains cas, comme la mort d'un gardien, le joueur du gardien peut conserver le contrôle d'un compagnon faisant une dernière charge héroïque contre des ennemis. Mais dans les cas où un gardien et son compagnon sont physiquement séparés, comme lorsque le compagnon est capturé, le MJ peut vouloir prendre le contrôle du compagnon pour maintenir le joueur en suspens quant au sort de la créature.</p>\n<p class=\"SANS-body\"><em>Note: Cet objet de classe est destiné à être placé sur les feuilles de personnage de type 'compagnon' et son niveau doit correspondre à celui de son Gardien.</em></p>\n</div>"
+        },
+        "Rampage": {
+          "name": "Frénésie",
+          "description":"<div class=\"mcdm-beastheart item\">\n<p class=\"CORE-body\">Après avoir lancé les dés pour augmenter la férocité au début de son tour, si un compagnon a 10 points de férocité ou plus et n'est pas incapacité, il court le risque d'entrer dans une <span class=\"Bold\">frénésie</span>. Le gardien du compagnon peut faire un test de Sagesse (Dressage) (aucune action requise) pour essayer d'empêcher le compagnon d'entrer en frénésie. Pour faire le test, le gardien ne doit pas être incapacité, et le compagnon doit être capable de voir ou d'entendre le gardien. Le DD pour le test est égal à 5 + la férocité du compagnon. En cas de réussite, le compagnon agit normalement à son tour. En cas d'échec, ou si le gardien ne fait pas le test, le compagnon entre en frénésie.</p>\n<p class=\"CORE-body\">Lorsqu'un compagnon entre en frénésie, il se déplace immédiatement jusqu'à sa vitesse vers la créature la plus proche et attaque cette créature avec son attaque signature (voir ci-dessous), infligeant des dégâts supplémentaires égaux à la moitié de sa férocité si l'attaque touche. Si au moins un allié et un ennemi sont les plus proches et à égale distance du compagnon, le joueur du gardien lance n'importe quel dé. Sur un nombre impair, le compagnon attaque un allié. Sur un nombre pair, le compagnon attaque un ennemi. Le joueur du gardien détermine quel allié ou ennemi spécifique le compagnon engage (et peut choisir son propre personnage s'il le souhaite).</p>\n<p class=\"CORE-body\">Un compagnon qui ne peut pas atteindre une créature à attaquer pendant une frénésie utilise l'action Foncer pour se déplacer aussi loin qu'il le peut vers la créature la plus proche. Si un compagnon ne peut pas détecter de cibles potentielles, il se déplace aussi loin qu'il le peut dans une direction aléatoire déterminée par le MJ, en évitant le danger.</p>\n<p class=\"CORE-body\">Lorsqu'un compagnon qui est entré en frénésie résout son action ou termine son tour, sa férocité tombe à 0 et il n'est plus en frénésie.</p>\n<p class=\"CORE-body\"><em>Note : Cette fonctionnalité est principalement destinée comme référence pendant le jeu et pour fournir l'Effet Actif \"En Frénésie\", qui doit être activé lorsque le gardien échoue à son test de Sagesse (Dressage) pour fournir le bonus de dégâts en frénésie. Les gardiens avec la fonctionnalité \"Frénésie Furieuse\" devraient plutôt activer l'Effet Actif \"Furieux\".</em></p>\n</div>"
+        }
+      }
+    },
+    "Sporeling Companion": {
+      "name": "Sporelin (Compagnon)",
+      "tokenName": "Sporelin (Compagnon)",
+      "items": {
+        "Corruption Cough (Signature Attack)": {
+          "name": "Toux Corrosive (Attaque Signature)",
+		  "description": "<div class=\"mcdm-beastheart item\">\n<p class=\"CORE-body\">3 + bonus de maîtrise (BM) pour toucher, portée 5 ft., une cible. Touché: 1d6 + BM dégâts d'acide.</p>\n</div>"
+        },
+        "Destabilizing Attack (2 Ferocity, 1st Level)": {
+          "name": "Attack Déstabilisante (2 Férocité, Niveau 1)",
+		  "description": "<div class=\"mcdm-beastheart item\">\n<p class=\"CORE-body\">Le sporelin effectue une attaque signature. En cas de réussite, l'attaque inflige ses effets normaux, et la cible a désavantage sur le prochain jet d'attaque qu'elle effectue avant le début du prochain tour du sporelin.</p>\n</div>"
+        },
+        "Spore Burst (5 Ferocity, 3rd Level)": {
+          "name": "Emission de Spores (5 Férocité, Niveau 3)",
+		  "description": "<div class=\"mcdm-beastheart item\">\n<p class=\"CORE-body\">Chaque créature choisie par le sporelin et se trouvant dans un rayon de 5 pieds autour de lui doit réussir un jet de sauvegarde de Constitution avec un DD de 10 plus BM du sporelin, ou devenir empoisonnée jusqu'au début du prochain tour du sporelin en cas d'échec.</p>\n</div>"
+        },
+        "Hallucinogenic Spores (8 Ferocity, 5th Level)": {
+          "name": "Spores Hallucinogènes (8 Férocité, Niveau 5)",
+		  "description": "<div class=\"mcdm-beastheart item\">\n<p class=\"CORE-body\">Chaque ennemi se trouvant dans un rayon de 10 pieds autour du sporelin doit réussir un jet de sauvegarde de Sagesse avec un DD de 10 plus BM du sporelin. En cas d'échec, le sporelin choisit si la créature ciblée utilise sa réaction pour effectuer une attaque au corps à corps contre une autre créature choisie par le sporelin et se trouvant à portée de la créature ciblée, ou si la créature ciblée tombe à terre.</p>\n</div>"
+        },
+        "Invigorating Spores": {
+          "name": "Spores Revigorants",
+		  "description": "<div class=\"mcdm-beastheart item\">\n<p class=\"CORE-body\">Tant que le gardien du sporelin est dans un rayon de 30 pieds autour d'eux, le sporelin peut utiliser une action bonus pour accorder au gardien un avantage sur les jets de sauvegarde pendant 1 minute.</p>\n</div>"
+        },
+        "False Appearance": {
+          "name": "Fausse Apparence",
+		  "description": "<div class=\"mcdm-beastheart item\">\n<p class=\"CORE-body\">Tant que le sporeling reste immobile, il est indiscernable d'un champignon ordinaire.</p>\n</div>"
+        },
+        "Monstrous Companion": {
+          "name": "Compagnon Monstrueux",
+          "description": "<div class=\"mcdm-beastheart\">\n<h3 class=\"Heading-2\">Le Gardien</h3>\n<p>En combat, un compagnon partage un tour avec son gardien et agit pendant le tour du gardien. Un compagnon peut se déplacer et utiliser sa propre réaction et action bonus de manière indépendante. Mais il ne peut prendre que les actions de Sauter, Désengager ou Esquiver à moins que son gardien utilise une action bonus pour commander au compagnon de prendre une action différente, y compris l'une des actions notées dans le bloc de statistiques du compagnon. Un compagnon doit être capable de voir ou d'entendre son gardien pour recevoir une commande. Un compagnon peut également prendre d'autres actions si son gardien est hors d'état de nuire, ou si le compagnon entre en frénésie (comme discuté ci-dessous).</p>\n<h3 class=\"Heading-2\">Contrôle du Compagnon</h3>\n<p class=\"SANS-body\">Si un gardien meurt ou est séparé d'un compagnon, le MJ détermine qui contrôle le compagnon. Dans certains cas, comme la mort d'un gardien, le joueur du gardien peut conserver le contrôle d'un compagnon faisant une dernière charge héroïque contre des ennemis. Mais dans les cas où un gardien et son compagnon sont physiquement séparés, comme lorsque le compagnon est capturé, le MJ peut vouloir prendre le contrôle du compagnon pour maintenir le joueur en suspens quant au sort de la créature.</p>\n<p class=\"SANS-body\"><em>Note: Cet objet de classe est destiné à être placé sur les feuilles de personnage de type 'compagnon' et son niveau doit correspondre à celui de son Gardien.</em></p>\n</div>"
+        },
+        "Rampage": {
+          "name": "Frénésie",
+          "description":"<div class=\"mcdm-beastheart item\">\n<p class=\"CORE-body\">Après avoir lancé les dés pour augmenter la férocité au début de son tour, si un compagnon a 10 points de férocité ou plus et n'est pas incapacité, il court le risque d'entrer dans une <span class=\"Bold\">frénésie</span>. Le gardien du compagnon peut faire un test de Sagesse (Dressage) (aucune action requise) pour essayer d'empêcher le compagnon d'entrer en frénésie. Pour faire le test, le gardien ne doit pas être incapacité, et le compagnon doit être capable de voir ou d'entendre le gardien. Le DD pour le test est égal à 5 + la férocité du compagnon. En cas de réussite, le compagnon agit normalement à son tour. En cas d'échec, ou si le gardien ne fait pas le test, le compagnon entre en frénésie.</p>\n<p class=\"CORE-body\">Lorsqu'un compagnon entre en frénésie, il se déplace immédiatement jusqu'à sa vitesse vers la créature la plus proche et attaque cette créature avec son attaque signature (voir ci-dessous), infligeant des dégâts supplémentaires égaux à la moitié de sa férocité si l'attaque touche. Si au moins un allié et un ennemi sont les plus proches et à égale distance du compagnon, le joueur du gardien lance n'importe quel dé. Sur un nombre impair, le compagnon attaque un allié. Sur un nombre pair, le compagnon attaque un ennemi. Le joueur du gardien détermine quel allié ou ennemi spécifique le compagnon engage (et peut choisir son propre personnage s'il le souhaite).</p>\n<p class=\"CORE-body\">Un compagnon qui ne peut pas atteindre une créature à attaquer pendant une frénésie utilise l'action Foncer pour se déplacer aussi loin qu'il le peut vers la créature la plus proche. Si un compagnon ne peut pas détecter de cibles potentielles, il se déplace aussi loin qu'il le peut dans une direction aléatoire déterminée par le MJ, en évitant le danger.</p>\n<p class=\"CORE-body\">Lorsqu'un compagnon qui est entré en frénésie résout son action ou termine son tour, sa férocité tombe à 0 et il n'est plus en frénésie.</p>\n<p class=\"CORE-body\"><em>Note : Cette fonctionnalité est principalement destinée comme référence pendant le jeu et pour fournir l'Effet Actif \"En Frénésie\", qui doit être activé lorsque le gardien échoue à son test de Sagesse (Dressage) pour fournir le bonus de dégâts en frénésie. Les gardiens avec la fonctionnalité \"Frénésie Furieuse\" devraient plutôt activer l'Effet Actif \"Furieux\".</em></p>\n</div>"
+        }
+      }
+    },
+    "Worg Companion": {
+      "name": "Worg (Compagnon)",
+      "tokenName": "Worg (Compagnon)",
+      "items": {
+        "Bite (Signature Attack)": {
+          "name": "Morsure (Attaque Signature)",
+		  "description": "<div class=\"mcdm-beastheart item\">\n<p class=\"CORE-body\">3 + bonus de maîtrise (BM) pour toucher, portée 5 ft., une cible. Touché: 1d6 + BM dégâts perforants.</p>\n</div>"
+        },
+        "Overwhelming Attack (2 Ferocity, 1st Level)": {
+          "name": "Griffures Innombrables (2 Férocité, Niveau 1)",
+		  "description": "<div class=\"mcdm-beastheart item\">\n<p class=\"CORE-body\">Le worg effectue une attaque signature. En cas de réussite, l'attaque inflige des dégâts supplémentaires équivalents au BM et la cible ne peut pas effectuer de réactions jusqu'au début du prochain tour du worg.</p>\n</div>"
+        },
+        "Brutal Charge (5 Ferocity, 3rd Level)": {
+          "name": "Charge Brutale (5 Férocité, Niveau 3)",
+		  "description": "<div class=\"mcdm-beastheart item\">\n<p class=\"CORE-body\">Le worg se déplace jusqu'à sa vitesse sans provoquer d'attaques d'opportunité. Pendant ou à la fin de ce déplacement, il peut effectuer une attaque signature contre une cible.</p>\n</div>"
+        },
+        "Bite Frenzy (8 Ferocity, 5th Level)": {
+          "name": "Morsure Féroce (8 Férocité, Niveau 5)",
+		  "description": "<div class=\"mcdm-beastheart item\">\n<p class=\"CORE-body\">Le worg effectue des attaques de morsure contre un nombre BM de créatures choisies dans un rayon de 5 pieds autour de lui. En cas de réussite, la cible est renversée.</p>\n</div>"
+        },
+        "Move as One": {
+          "name": "Déplacement Simultané",
+		  "description": "<div class=\"mcdm-beastheart item\">\n<p class=\"CORE-body\">Lorsque le gardien du worg est monté sur le worg, les attaques d'opportunité dirigées contre le worg ou son gardien sont effectuées avec désavantage. Le gardien du worg peut monter ou descendre du worg en dépensant 5 pieds de mouvement.</p>\n</div>"
+        },
+        "Monstrous Companion": {
+          "name": "Compagnon Monstrueux",
+          "description": "<div class=\"mcdm-beastheart\">\n<h3 class=\"Heading-2\">Le Gardien</h3>\n<p>En combat, un compagnon partage un tour avec son gardien et agit pendant le tour du gardien. Un compagnon peut se déplacer et utiliser sa propre réaction et action bonus de manière indépendante. Mais il ne peut prendre que les actions de Sauter, Désengager ou Esquiver à moins que son gardien utilise une action bonus pour commander au compagnon de prendre une action différente, y compris l'une des actions notées dans le bloc de statistiques du compagnon. Un compagnon doit être capable de voir ou d'entendre son gardien pour recevoir une commande. Un compagnon peut également prendre d'autres actions si son gardien est hors d'état de nuire, ou si le compagnon entre en frénésie (comme discuté ci-dessous).</p>\n<h3 class=\"Heading-2\">Contrôle du Compagnon</h3>\n<p class=\"SANS-body\">Si un gardien meurt ou est séparé d'un compagnon, le MJ détermine qui contrôle le compagnon. Dans certains cas, comme la mort d'un gardien, le joueur du gardien peut conserver le contrôle d'un compagnon faisant une dernière charge héroïque contre des ennemis. Mais dans les cas où un gardien et son compagnon sont physiquement séparés, comme lorsque le compagnon est capturé, le MJ peut vouloir prendre le contrôle du compagnon pour maintenir le joueur en suspens quant au sort de la créature.</p>\n<p class=\"SANS-body\"><em>Note: Cet objet de classe est destiné à être placé sur les feuilles de personnage de type 'compagnon' et son niveau doit correspondre à celui de son Gardien.</em></p>\n</div>"
+        },
+        "Rampage": {
+          "name": "Frénésie",
+          "description":"<div class=\"mcdm-beastheart item\">\n<p class=\"CORE-body\">Après avoir lancé les dés pour augmenter la férocité au début de son tour, si un compagnon a 10 points de férocité ou plus et n'est pas incapacité, il court le risque d'entrer dans une <span class=\"Bold\">frénésie</span>. Le gardien du compagnon peut faire un test de Sagesse (Dressage) (aucune action requise) pour essayer d'empêcher le compagnon d'entrer en frénésie. Pour faire le test, le gardien ne doit pas être incapacité, et le compagnon doit être capable de voir ou d'entendre le gardien. Le DD pour le test est égal à 5 + la férocité du compagnon. En cas de réussite, le compagnon agit normalement à son tour. En cas d'échec, ou si le gardien ne fait pas le test, le compagnon entre en frénésie.</p>\n<p class=\"CORE-body\">Lorsqu'un compagnon entre en frénésie, il se déplace immédiatement jusqu'à sa vitesse vers la créature la plus proche et attaque cette créature avec son attaque signature (voir ci-dessous), infligeant des dégâts supplémentaires égaux à la moitié de sa férocité si l'attaque touche. Si au moins un allié et un ennemi sont les plus proches et à égale distance du compagnon, le joueur du gardien lance n'importe quel dé. Sur un nombre impair, le compagnon attaque un allié. Sur un nombre pair, le compagnon attaque un ennemi. Le joueur du gardien détermine quel allié ou ennemi spécifique le compagnon engage (et peut choisir son propre personnage s'il le souhaite).</p>\n<p class=\"CORE-body\">Un compagnon qui ne peut pas atteindre une créature à attaquer pendant une frénésie utilise l'action Foncer pour se déplacer aussi loin qu'il le peut vers la créature la plus proche. Si un compagnon ne peut pas détecter de cibles potentielles, il se déplace aussi loin qu'il le peut dans une direction aléatoire déterminée par le MJ, en évitant le danger.</p>\n<p class=\"CORE-body\">Lorsqu'un compagnon qui est entré en frénésie résout son action ou termine son tour, sa férocité tombe à 0 et il n'est plus en frénésie.</p>\n<p class=\"CORE-body\"><em>Note : Cette fonctionnalité est principalement destinée comme référence pendant le jeu et pour fournir l'Effet Actif \"En Frénésie\", qui doit être activé lorsque le gardien échoue à son test de Sagesse (Dressage) pour fournir le bonus de dégâts en frénésie. Les gardiens avec la fonctionnalité \"Frénésie Furieuse\" devraient plutôt activer l'Effet Actif \"Furieux\".</em></p>\n</div>"
+        }
+      }
+    }
+  }
+}
